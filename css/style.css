@@ -568,4 +568,7 @@ footer ul {
     display: inline-block;
     margin-right: 10px; }
 
-/*# sourceMappingURL=style.css.map */
+/* Slider Tabs */
+section.feat_banner .wrap > div {
+  width: 49%;
+  float: left; }

@@ -39,3 +39,5 @@ Thumbs.db
 # Codekit #
 ######################
 *.codekit
+linda.sass
+style.sass
