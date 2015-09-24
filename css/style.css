@@ -568,7 +568,50 @@ footer ul {
     display: inline-block;
     margin-right: 10px; }
 
+/* Alternative Setup */
+.bg_img, section.main_banner .wrap .image {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
 /* Slider Tabs */
-section.feat_banner .wrap > div {
-  width: 49%;
-  float: left; }
+section.main_banner .wrap {
+  height: 28.75em;
+  overflow: hidden; }
+  section.main_banner .wrap > div {
+    width: 50%;
+    height: 100%;
+    float: left; }
+  section.main_banner .wrap .image {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1); }
+  section.main_banner .wrap .txt {
+    padding: 2em; }
+section.main_banner ul.slider-pager {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  overflow: hidden; }
+  section.main_banner ul.slider-pager li {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+    padding: 1em;
+    text-align: center;
+    display: inline-block;
+    background-color: #dd1919;
+    color: #ffffff; }
+section.main_banner .wrap:hover .image {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.05); }
