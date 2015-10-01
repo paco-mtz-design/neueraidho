@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Styles for Raidho's Website
  *Raidho Aesthetics
  */
@@ -569,7 +570,7 @@ footer ul {
     margin-right: 10px; }
 
 /* Alternative Setup */
-.bg_img, section.main_banner .wrap .image {
+.bg_img, section.main_banner .wrap li .image {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -580,32 +581,53 @@ footer ul {
 /* Slider Tabs */
 section.main_banner .wrap {
   height: 28.75em;
+  overflow: hidden;
+  position: relative;
   overflow: hidden; }
-  section.main_banner .wrap > div {
-    width: 50%;
+  section.main_banner .wrap li {
+    width: 100%;
     height: 100%;
-    float: left; }
-  section.main_banner .wrap .image {
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -ms-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-    transform: scale(1); }
-  section.main_banner .wrap .txt {
-    padding: 2em; }
+    position: relative; }
+    section.main_banner .wrap li > div {
+      width: 50%;
+      height: 100%;
+      float: left;
+      position: relative;
+      overflow: hidden; }
+    section.main_banner .wrap li .image {
+      background-repeat: no-repeat;
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -ms-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+      transform: scale(1); }
+    section.main_banner .wrap li .txt {
+      padding: 2em; }
 section.main_banner ul.slider-pager {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  margin-bottom: 1em;
   overflow: hidden; }
-  section.main_banner ul.slider-pager li {
+  section.main_banner ul.slider-pager li#tab1 {
+    display: block; }
+  section.main_banner ul.slider-pager li a {
     width: 15.25424%;
     float: left;
     margin-right: 1.69492%;
-    padding: 1em;
-    text-align: center;
+    margin-right: 1em;
+    padding: 1em 1.5em;
     display: inline-block;
+    text-align: left;
+    color: #cbcbcb;
+    background-color: #ffffff; }
+  section.main_banner ul.slider-pager li p {
+    margin-bottom: 0; }
+  section.main_banner ul.slider-pager li p:after {
+    content: "→";
+    margin-left: 0.5em; }
+  section.main_banner ul.slider-pager li:hover a, section.main_banner ul.slider-pager li.rslides_here a {
     background-color: #dd1919;
     color: #ffffff; }
 section.main_banner .wrap:hover .image {

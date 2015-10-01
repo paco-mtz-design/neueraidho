@@ -18,9 +18,29 @@ Neue Raidho Website
 	<link rel="stylesheet" type="text/css" href="fonts/leitura/MyFontsWebfontsKit.css">
 	<link rel="stylesheet" type="text/css" href="fonts/decima/MyFontsWebfontsKit.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
+	<script src="js/responsiveslides.min.js"></script>
 	<script src="js/masonry.pkgd.js"></script>
 	<script src="js/imagesloaded.pkgd.js"></script>
+	<script type="text/javascript">
+		$(function () {
+		    $("#slider1").responsiveSlides({
+			    pager: false,
+			    auto: false,
+			    nav: true,
+				manualControls: '#slider3-pager, #slider2-pager '
+			});
+		});
+		
+		$(function() {
+			$(".list a.tab").click(function(event) {
+				$(this).parent().addClass("current");
+				$(this).parent().siblings().removeClass("current");
+				var tab = $(this).attr("href");
+				$(".tab-content").not(tab).css("display", "none");
+				$(tab).fadeIn();
+			});
+		});
+	</script>
 </head>
 
 <body>
