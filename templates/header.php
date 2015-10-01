@@ -27,17 +27,7 @@ Neue Raidho Website
 			    pager: false,
 			    auto: false,
 			    nav: true,
-				manualControls: '#slider3-pager, #slider2-pager '
-			});
-		});
-		
-		$(function() {
-			$(".list a.tab").click(function(event) {
-				$(this).parent().addClass("current");
-				$(this).parent().siblings().removeClass("current");
-				var tab = $(this).attr("href");
-				$(".tab-content").not(tab).css("display", "none");
-				$(tab).fadeIn();
+				manualControls: '#slider3-pager'
 			});
 		});
 	</script>

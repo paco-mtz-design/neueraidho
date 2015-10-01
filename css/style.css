@@ -578,6 +578,18 @@ footer ul {
   background-position: center;
   background-repeat: no-repeat; }
 
+ul.slider-pager {
+  width: 90%; }
+  @media (min-width: 1400px) {
+    ul.slider-pager {
+      width: 70%; } }
+  @media (max-width: 900px) {
+    ul.slider-pager {
+      width: 95%; } }
+  @media (max-width: 620px) {
+    ul.slider-pager {
+      width: 98%; } }
+
 /* Slider Tabs */
 section.main_banner .wrap {
   height: 28.75em;
@@ -607,16 +619,12 @@ section.main_banner .wrap {
 section.main_banner ul.slider-pager {
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  margin-bottom: 1em;
   overflow: hidden; }
-  section.main_banner ul.slider-pager li#tab1 {
-    display: block; }
   section.main_banner ul.slider-pager li a {
-    width: 15.25424%;
+    display: inline;
     float: left;
-    margin-right: 1.69492%;
     margin-right: 1em;
+    margin-bottom: 1em;
     padding: 1em 1.5em;
     display: inline-block;
     text-align: left;
@@ -627,7 +635,7 @@ section.main_banner ul.slider-pager {
   section.main_banner ul.slider-pager li p:after {
     content: "→";
     margin-left: 0.5em; }
-  section.main_banner ul.slider-pager li:hover a, section.main_banner ul.slider-pager li.rslides_here a {
+  section.main_banner ul.slider-pager li:hover a, section.main_banner ul.slider-pager .rslides_here a {
     background-color: #dd1919;
     color: #ffffff; }
 section.main_banner .wrap:hover .image {
@@ -637,3 +645,10 @@ section.main_banner .wrap:hover .image {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   transform: scale(1.05); }
+@media (max-width: 620px) {
+  section.main_banner .wrap li > div {
+    width: 100%; }
+  section.main_banner .wrap li .image {
+    height: 10em; }
+  section.main_banner .wrap li .txt {
+    height: auto; } }
