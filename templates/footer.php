@@ -5,8 +5,6 @@ Footer Template
 Neue Raidho Website
 */
 
-	wp_footer();
-
 ?>
 	<footer>
 		<div class="wrap">
