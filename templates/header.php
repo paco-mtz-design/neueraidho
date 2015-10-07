@@ -48,7 +48,7 @@ global $bclass;
 				<li><a href="work.php">Work</a></li>
 				<li><a href="work-single.php">S-Project</a></li>
 				<li><a href="services.php">Services</a></li>
-				<li><a href="services.php">S-Blog</a></li>
+				<li><a href="blog-single.php">S-Blog</a></li>
 			</ul>
 
 		</div>
