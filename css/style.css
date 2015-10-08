@@ -780,6 +780,20 @@ footer ul {
       margin-bottom: 1.5em; }
 
 /* Log Single */
+.filter_header {
+  position: relative; }
+
+.log_filter {
+  position: absolute;
+  top: 23%;
+  right: 0; }
+  .log_filter li {
+    display: inline-block;
+    margin-right: 1em; }
+    .log_filter li a:hover {
+      color: #dd1919; }
+
+/* Log Single */
 .log_single_wrap {
   position: relative;
   overflow: hidden;

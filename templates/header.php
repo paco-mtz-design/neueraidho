@@ -39,15 +39,16 @@ global $bclass;
 				<li><a href="about.php">About</a></li>
 				<li><a href="work.php">Work</a></li>
 				<li><a href="services.php">Services</a></li>
-				<!-- <li><a href="recent.php">Recent</a></li> -->
+				<li><a href="recent.php">Recent</a></li>
 				<!-- <li><a href="contact.php">Contact</a></li> -->
 			</ul>
 			<ul id="dev_nav">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About</a></li>
 				<li><a href="work.php">Work</a></li>
-				<li><a href="work-single.php">S-Project</a></li>
 				<li><a href="services.php">Services</a></li>
+				<li><a href="recent.php">Recent</a></li>
+				<li><a href="work-single.php">S-Project</a></li>
 				<li><a href="blog-single.php">S-Blog</a></li>
 				<li><a href="log-single.php">S-Log</a></li>
 			</ul>

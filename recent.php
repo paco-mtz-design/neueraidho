@@ -1,35 +1,26 @@
 <?php
 
 /*
-Single Log Template
-Neue Raidho Website					:	90%
+Log Template
+Neue Raidho Website					:	10%
 */
 
 include "templates/header.php";
 ?>
 
-<div class="wrap">
-
-	<div class="log_single_wrap">
-		<div>
-			<img src="http://lorempixel.com/640/640/technics">
-		</div>
-		<div>
-			<h4>#Linda #Dinosaurios #Coder</h4>
-			<p>Posted on Instagram</br> 24/04/2014</p>
-			<ul class="share_btns squared_btns">
-				<li><a href="#">Post to Facebook</a></li>
-				<li><a href="#">Post to Twitter</a></li>
-				<li><a href="#">Pin this</a></li>
-				<li><a href="#">Copy URL</a></li>
-			</ul>
-		</div>
-	</div>
-
-</div>
-
 <section id="loader" class="wrap">
-	<h2 class="Decima">Recent Activity</h2>
+	<div class="filter_header">
+		<h2 class="Decima">Recent Activity</h2>
+		<ul class="log_filter">
+			<span class="Decima">Filter: </span>
+			<li><a href="#">Work</a></li>
+			<li><a href="#">Instagram</a></li>
+			<li><a href="#">Dribbble</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Share</a></li>
+		</ul>
+	</div>
 	<ul class="log masonry">
 		<!-- Masonry gutter sizer -->
 		<li class="masonry_gutter"></li>
