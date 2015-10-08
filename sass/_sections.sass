@@ -117,3 +117,47 @@ footer
 .back_img_quote
 	@extend .section_pad
 	color: white
+
+
+/* Blog Single */
+
+.blog_wrap
+	@include span(8 at 3 of 12 isolate)
+	margin-bottom: $bottom_margins_grid
+.blog_body
+	margin: $bottom_margins 0
+	font-size: 1.375em
+	ul
+		list-style: disc inside none
+		text-indent: 1em
+	img
+		margin-bottom: $bottom_margins
+
+.blog_foot
+	margin: $bottom_margins 0
+.blog_more
+	margin: $bottom_margins 0
+	li
+		@include gallery(4 of 8)
+		@include clearfix
+		img
+			width: 100%
+			margin-bottom: $bottom_margins
+
+.share_btns
+	padding: $bottom_margins 0
+	li
+		display: inline-block
+		width: 11em
+		margin-right: 1em
+		text-align: center
+	a
+		display: block
+		background-color: $white
+		color: $gray_dark
+		padding: 0.7em
+		border: 1px solid $gray_medium
+		&:hover
+			color: $white
+			background-color: $red
+			border: 1px solid $red

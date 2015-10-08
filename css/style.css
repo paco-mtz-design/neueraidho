@@ -709,6 +709,64 @@ footer ul {
 .back_img_quote {
   color: white; }
 
+/* Blog Single */
+.blog_wrap {
+  width: 66.10169%;
+  float: left;
+  margin-left: 16.94915%;
+  margin-right: -100%;
+  margin-bottom: 4.375em; }
+
+.blog_body {
+  margin: 1.5em 0;
+  font-size: 1.375em; }
+  .blog_body ul {
+    list-style: disc inside none;
+    text-indent: 1em; }
+  .blog_body img {
+    margin-bottom: 1.5em; }
+
+.blog_foot {
+  margin: 1.5em 0; }
+
+.blog_more {
+  margin: 1.5em 0; }
+  .blog_more li {
+    width: 48.71795%;
+    float: left;
+    overflow: hidden;
+    *zoom: 1; }
+    .blog_more li:nth-child(2n + 1) {
+      margin-left: 0;
+      margin-right: -100%;
+      clear: both;
+      margin-left: 0; }
+    .blog_more li:nth-child(2n + 2) {
+      margin-left: 51.28205%;
+      margin-right: -100%;
+      clear: none; }
+    .blog_more li img {
+      width: 100%;
+      margin-bottom: 1.5em; }
+
+.share_btns {
+  padding: 1.5em 0; }
+  .share_btns li {
+    display: inline-block;
+    width: 11em;
+    margin-right: 1em;
+    text-align: center; }
+  .share_btns a {
+    display: block;
+    background-color: #ffffff;
+    color: #2f2f2f;
+    padding: 0.7em;
+    border: 1px solid #434343; }
+    .share_btns a:hover {
+      color: #ffffff;
+      background-color: #dd1919;
+      border: 1px solid #dd1919; }
+
 /* Complimenary Styles */
 /* Color pallete */
 .color_pallette {
