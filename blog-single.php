@@ -2,9 +2,7 @@
 
 /*
 Single Blog Template
-Neue Raidho Website					:	50%
-Missing:
-- Slider template (Linda)
+Neue Raidho Website					:	90%
 */
 
 $bclass = "page";
