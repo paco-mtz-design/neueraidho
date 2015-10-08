@@ -87,6 +87,9 @@ header
 					@extend .red_bg
 					color: $white
 
+header + .wrap
+	margin-top: 1em
+
 // Dev navigation bar
 
 #dev_nav
@@ -157,6 +160,7 @@ header
 
 
 /* Contact Call to Action banner */
+
 .contact-banner
 	background: $gray_dark
 	color: $white
@@ -218,3 +222,30 @@ form
 		opacity: .9
 		&:hover
 			opacity: 1
+
+/* Share Buttons */
+
+.share_btns
+	padding: $bottom_margins 0
+	li
+		display: inline-block
+		width: 11em
+		margin-right: 1em
+		text-align: center
+	a
+		display: block
+		background-color: $white
+		color: $gray_dark
+		padding: 0.7em
+		border: 1px solid $gray_medium
+		&:hover
+			color: $white
+			background-color: $red
+			border: 1px solid $red
+.share_btns.squared_btns
+	position: absolute
+	bottom: 0
+	margin-bottom: -1em
+	padding: 0
+	li
+		margin: 0 1em 1em 0

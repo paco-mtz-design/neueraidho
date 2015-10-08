@@ -144,20 +144,15 @@ footer
 			width: 100%
 			margin-bottom: $bottom_margins
 
-.share_btns
-	padding: $bottom_margins 0
-	li
-		display: inline-block
-		width: 11em
-		margin-right: 1em
-		text-align: center
-	a
-		display: block
-		background-color: $white
-		color: $gray_dark
-		padding: 0.7em
-		border: 1px solid $gray_medium
-		&:hover
-			color: $white
-			background-color: $red
-			border: 1px solid $red
+
+/* Log Single */
+
+.log_single_wrap
+	position: relative
+	@include clearfix
+	div:first-child
+		@include span(7 at 1 of 12 first)
+		img
+			width: 100%
+	div:last-child
+		@include span(5 at 7 of 12 last)

@@ -372,6 +372,9 @@ header {
         header #nav li a:hover {
           color: #ffffff; }
 
+header + .wrap {
+  margin-top: 1em; }
+
 #dev_nav {
   display: none;
   position: absolute; }
@@ -509,6 +512,33 @@ form button, form input[type=submit] {
   opacity: 0.9; }
   form button:hover, form input[type=submit]:hover {
     opacity: 1; }
+
+/* Share Buttons */
+.share_btns {
+  padding: 1.5em 0; }
+  .share_btns li {
+    display: inline-block;
+    width: 11em;
+    margin-right: 1em;
+    text-align: center; }
+  .share_btns a {
+    display: block;
+    background-color: #ffffff;
+    color: #2f2f2f;
+    padding: 0.7em;
+    border: 1px solid #434343; }
+    .share_btns a:hover {
+      color: #ffffff;
+      background-color: #dd1919;
+      border: 1px solid #dd1919; }
+
+.share_btns.squared_btns {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1em;
+  padding: 0; }
+  .share_btns.squared_btns li {
+    margin: 0 1em 1em 0; }
 
 /* Sections */
 /* Home */
@@ -749,23 +779,21 @@ footer ul {
       width: 100%;
       margin-bottom: 1.5em; }
 
-.share_btns {
-  padding: 1.5em 0; }
-  .share_btns li {
-    display: inline-block;
-    width: 11em;
-    margin-right: 1em;
-    text-align: center; }
-  .share_btns a {
-    display: block;
-    background-color: #ffffff;
-    color: #2f2f2f;
-    padding: 0.7em;
-    border: 1px solid #434343; }
-    .share_btns a:hover {
-      color: #ffffff;
-      background-color: #dd1919;
-      border: 1px solid #dd1919; }
+/* Log Single */
+.log_single_wrap {
+  position: relative;
+  overflow: hidden;
+  *zoom: 1; }
+  .log_single_wrap div:first-child {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%; }
+    .log_single_wrap div:first-child img {
+      width: 100%; }
+  .log_single_wrap div:last-child {
+    width: 40.67797%;
+    float: right;
+    margin-right: 0; }
 
 /* Complimenary Styles */
 /* Color pallete */
