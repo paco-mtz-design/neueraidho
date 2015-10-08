@@ -367,7 +367,7 @@ header {
       float: left;
       text-align: center; }
       header #nav li a {
-        display: inline-block;
+        display: block;
         padding: 1.8em 2.063em; }
         header #nav li a:hover {
           color: #ffffff; }
