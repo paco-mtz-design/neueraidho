@@ -26,8 +26,19 @@ Neue Raidho Website
 		    $("#slider1").responsiveSlides({
 			    pager: false,
 			    auto: false,
+				prevText: "-",
+				nextText: "-", 
 			    nav: true,
-				manualControls: '#slider3-pager'
+				manualControls: '#slider1-pager'
+			});
+
+			 $("#slider2").responsiveSlides({
+			    pager: false,
+			    auto: false,
+				prevText: "-",
+				nextText: "-", 
+			    nav: true,
+				manualControls: '#slider2-pager'
 			});
 		});
 	</script>
