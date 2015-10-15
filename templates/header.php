@@ -32,13 +32,21 @@ Neue Raidho Website
 				manualControls: '#slider1-pager'
 			});
 
-			 $("#slider2").responsiveSlides({
+			$("#slider2").responsiveSlides({
 			    pager: false,
 			    auto: false,
 				prevText: "-",
 				nextText: "-", 
 			    nav: true,
 				manualControls: '#slider2-pager'
+			});
+			$("#slider3").responsiveSlides({
+			    pager: false,
+			    auto: false,
+				prevText: "-",
+				nextText: "-", 
+			    nav: true,
+				manualControls: '#slider3-pager'
 			});
 		});
 	</script>
