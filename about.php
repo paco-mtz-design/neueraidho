@@ -45,7 +45,7 @@ include "templates/header.php";
 	</div>
 
 	<div class="wrap">
-		<h2>People at Raidho</h2>
+		<h2 class="Decima">People at Raidho</h2>
 
 		<div class="people_founders">
 			<div>
