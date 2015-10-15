@@ -158,9 +158,6 @@ footer
 		a:hover
 			color: $red
 
-
-/* Log Single */
-
 .log_single_wrap
 	position: relative
 	@include clearfix
@@ -170,3 +167,11 @@ footer
 			width: 100%
 	div:last-child
 		@include span(5 at 7 of 12 last)
+
+
+/* Work */
+
+#recent_work
+	.wrap.project_wrapper
+		@media (min-width: $large_break)
+			@include container(95%)

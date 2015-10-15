@@ -792,7 +792,6 @@ footer ul {
     .log_filter li a:hover {
       color: #dd1919; }
 
-/* Log Single */
 .log_single_wrap {
   position: relative;
   overflow: hidden;
@@ -807,6 +806,17 @@ footer ul {
     width: 40.67797%;
     float: right;
     margin-right: 0; }
+
+/* Work */
+@media (min-width: 1400px) {
+  #recent_work .wrap.project_wrapper {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto; }
+    #recent_work .wrap.project_wrapper:after {
+      content: " ";
+      display: block;
+      clear: both; } }
 
 /* Complimenary Styles */
 /* Color pallete */
