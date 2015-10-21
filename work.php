@@ -11,10 +11,6 @@ include "templates/header.php";
 
 <section id="recent_work">
 
-	<div class="wrap">
-		<h2 class="Decima">Recent Work</h2>
-	</div>
-
 	<div class="wrap project_wrapper">
 
 		<div class="bl-party-two-w-captions">
