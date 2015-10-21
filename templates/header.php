@@ -40,6 +40,7 @@ Neue Raidho Website
 			    nav: true,
 				manualControls: '#slider2-pager'
 			});
+			
 			$("#slider3").responsiveSlides({
 			    pager: false,
 			    auto: false,
