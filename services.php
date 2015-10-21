@@ -39,10 +39,10 @@ include "templates/header.php";
 			<div>
 				<h4 class="Decima">Digital Business services:</h4>
 				<ul class="small_title Decima bullet_list">
-					<li>Responsive Web Design</li>
-					<li>Web Applications</li>
-					<li>E-Commerce</li>
-					<li>Mobile & Multiplatform Apps</li>
+					<li>→ Responsive Web Design</li>
+					<li>→ Web Applications</li>
+					<li>→ E-Commerce</li>
+					<li>→ Mobile & Multiplatform Apps</li>
 				</ul>
 			</div>
 		</div>
@@ -75,10 +75,10 @@ include "templates/header.php";
 			<div>
 				<h4 class="Decima">Brand Dev main services:</h4>
 				<ul class="small_title Decima bullet_list">
-					<li>Identity Systems</li>
-					<li>Content Strategy</li>
-					<li>Digital Design</li>
-					<li>Naming</li>
+					<li>→ Identity Systems</li>
+					<li>→ Content Strategy</li>
+					<li>→ Digital Design</li>
+					<li>→ Naming</li>
 				</ul>
 			</div>
 		</div>

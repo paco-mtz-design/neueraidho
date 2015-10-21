@@ -359,6 +359,8 @@ header {
     float: left;
     padding: 0.45em 0;
     margin-bottom: 0; }
+    header #nav_logo span img {
+      height: 0.7em; }
   header #nav {
     float: right; }
     header #nav li {
@@ -737,6 +739,9 @@ footer ul {
 
 .back_img_quote {
   color: white; }
+
+.bullet_list {
+  color: #cbcbcb; }
 
 /* Blog Single */
 .blog_wrap {
