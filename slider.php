@@ -10,14 +10,17 @@ include "templates/header.php";
 ?>
 
 
+	<!-- slider w/tabs -->
 	<section class="main_banner gray_light_bg">
-
+		<!-- tabs -->
 		<ul class="tabs-pager" id="slider1-pager">
 			<li><a href="#tab1"><p>Simplicity</p></a></li>
 			<li><a href="#tab2"><p>Enloquecy</p></a></li>
 			<li><a href="#tab3"><p>Aesthetics</p></a></li>
 			<li><a href="#tab4"><p>Innovation</p></a></li>
 		</ul>
+		
+		<!-- slides container -->
 		<div class="wrap">
 			<ul id="slider1">
 				<li>
@@ -82,6 +85,7 @@ include "templates/header.php";
 				</li>
 			</ul>
 
+			<!-- arrows -->
 			<div class="arrow_navigation">
 				<button class="rslides1_nav prev"></button>
 				<button class="rslides1_nav next"></button>				
@@ -90,9 +94,11 @@ include "templates/header.php";
 	</section>
 
 
-	<section class="main_banner gray_light_bg">
 
+	<!-- slider w/bullets -->
+	<section class="main_banner gray_light_bg">
 		<div class="wrap">
+			<!-- slides container -->
 			<ul id="slider3">
 				<li>
 					<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
@@ -136,12 +142,16 @@ include "templates/header.php";
 				</li>
 				
 			</ul>
-<ul class="tabs-bullets" id="slider3-pager">
-					<li><a href="#tab1"></a></li>
-					<li><a href="#tab2"></a></li>
-					<li><a href="#tab3"></a></li>
-					<li><a href="#tab4"></a></li>
-				</ul>
+
+			<!-- bullets -->
+			<ul class="tabs-bullets" id="slider3-pager">
+				<li><a href="#tab1"></a></li>
+				<li><a href="#tab2"></a></li>
+				<li><a href="#tab3"></a></li>
+				<li><a href="#tab4"></a></li>
+			</ul>
+			
+			<!-- arrows -->
 			<div class="arrow_navigation">
 				<button class="rslides1_nav prev"></button>
 				<button class="rslides1_nav next"></button>				
@@ -151,7 +161,10 @@ include "templates/header.php";
 
 
 
+
+	<!-- huge slider -->
 	<div class="wide_slider">
+		<!-- slides container -->
 		<ul id="slider2">
 			<li>
 				<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
@@ -169,14 +182,16 @@ include "templates/header.php";
 				<div class="image" style="background-image: url(img/featured_single.jpg)"></div>
 			</li>
 		</ul>
-
+		
+		<!-- horizontal bullets-->
 		<ul class="dots-pager" id="slider2-pager">
 			<li><a href="#tab1"></a></li>
 			<li><a href="#tab2"></a></li>
 			<li><a href="#tab3"></a></li>
 			<li><a href="#tab4"></a></li>
 		</ul>
-
+		
+		<!-- arrows -->
 		<div class="arrow_navigation">
 			<button class="rslides2_nav prev"></button>
 			<button class="rslides2_nav next"></button>				
