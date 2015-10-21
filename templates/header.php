@@ -20,10 +20,40 @@ global $bclass;
 	<link rel="stylesheet" type="text/css" href="fonts/leitura/MyFontsWebfontsKit.css">
 	<link rel="stylesheet" type="text/css" href="fonts/decima/MyFontsWebfontsKit.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
+	<script src="js/responsiveslides.min.js"></script>
 	<script src="js/masonry.pkgd.js"></script>
 	<script src="js/imagesloaded.pkgd.js"></script>
 	<script src="js/scripts.js"></script>
+	<script type="text/javascript">
+		$(function () {
+		    $("#slider1").responsiveSlides({
+			    pager: false,
+			    auto: false,
+				prevText: "-",
+				nextText: "-", 
+			    nav: true,
+				manualControls: '#slider1-pager'
+			});
+
+			$("#slider2").responsiveSlides({
+			    pager: false,
+			    auto: false,
+				prevText: "-",
+				nextText: "-", 
+			    nav: true,
+				manualControls: '#slider2-pager'
+			});
+			
+			$("#slider3").responsiveSlides({
+			    pager: false,
+			    auto: false,
+				prevText: "-",
+				nextText: "-", 
+			    nav: true,
+				manualControls: '#slider3-pager'
+			});
+		});
+	</script>
 
 </head>
 
