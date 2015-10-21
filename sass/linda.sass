@@ -1,13 +1,15 @@
 /* Alternative Setup */
 
 .bg_img
-	+background-size(cover)
+	background-size: cover
 	background-position: center
 	background-repeat: no-repeat
 
 button
-	+appearance(none)
-	+border-radius(0)
+	-webkit-appearance: value
+	-moz-appearance: value
+	appearance: value
+	border-radius: 0
 	border: none
 	background-color: rgba(0, 0, 0, 0)
 	cursor: pointer
@@ -234,3 +236,5 @@ ul.dots-pager
 			color: $white
 	@media (max-width: $tablet_break)
 		display: none
+
+
