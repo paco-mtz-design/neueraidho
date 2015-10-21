@@ -982,16 +982,16 @@ button {
   cursor: pointer;
   border: none; }
 
-ul.tabs-pager {
+ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
   width: 90%; }
   @media (min-width: 1400px) {
-    ul.tabs-pager {
-      width: 70%; } }
+    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+      width: 80%; } }
   @media (max-width: 900px) {
-    ul.tabs-pager {
+    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
       width: 95%; } }
   @media (max-width: 620px) {
-    ul.tabs-pager {
+    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
       width: 98%; } }
 
 /* Slider Tabs */
@@ -1104,6 +1104,7 @@ section.main_banner .arrow_navigation {
       section.main_banner .wrap li .image {
         height: 20em; }
       section.main_banner .wrap li .txt {
+        padding: 2em 2em 6em 2em;
         height: auto; } }
 
 .rslides_nav {
