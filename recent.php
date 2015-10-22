@@ -47,7 +47,7 @@ include "templates/header.php";
 		</li>
 		<li class="work masonry_item">
 			<a href="#"><img src="http://lorempixel.com/400/400/technics"></a>
-			<p><a href="#"><span class="red">New Project:</span> Explainer video for Colombian Tech Bootcamp Make it Real.</a></p>
+			<p class="small_title"><a href="#"><span class="red">New Project:</span> Explainer video for Colombian Tech Bootcamp Make it Real.</a></p>
 		</li>
 		<li class="blog masonry_item">
 			<a href="#"><img src="http://lorempixel.com/400/400/technics"></a>

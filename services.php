@@ -14,7 +14,7 @@ include "templates/header.php";
 	<div class="wrap">
 		<div>
 			<h2 class="Decima">Services</h2>
-			<h1 class="Leitura"><span class="red">Good Design is Good Business</span>. We make this happen through a Design Driven Approach to Technology and Communication.</h1>
+			<h1 class="Leitura full_width_message"><span class="red">Good Design is Good Business</span>. We make this happen through a Design Driven Approach to Technology and Communication.</h1>
 		</div>
 	</div>
 
@@ -25,7 +25,7 @@ include "templates/header.php";
 	<div class="wrap">
 	    <div>
             <p class="blue Decima">Value Proposition <span class="replica">→</span></p>
-            <p class="Leitura medium_title">Our work connects brands and people through engaging digital narratives, products and services — we’ll make your business thrive in the digital economy</p>
+            <p class="Leitura medium_title full_width_message">Our work connects brands and people through engaging digital narratives, products and services — we’ll make your business thrive in the digital economy</p>
         </div>
 	</div> <!-- Wrap -->
 
@@ -39,10 +39,10 @@ include "templates/header.php";
 			<div>
 				<h4 class="Decima">Digital Business services:</h4>
 				<ul class="small_title Decima bullet_list">
-					<li>Responsive Web Design</li>
-					<li>Web Applications</li>
-					<li>E-Commerce</li>
-					<li>Mobile & Multiplatform Apps</li>
+					<li>→ Responsive Web Design</li>
+					<li>→ Web Applications</li>
+					<li>→ E-Commerce</li>
+					<li>→ Mobile & Multiplatform Apps</li>
 				</ul>
 			</div>
 		</div>
@@ -75,10 +75,10 @@ include "templates/header.php";
 			<div>
 				<h4 class="Decima">Brand Dev main services:</h4>
 				<ul class="small_title Decima bullet_list">
-					<li>Identity Systems</li>
-					<li>Content Strategy</li>
-					<li>Digital Design</li>
-					<li>Naming</li>
+					<li>→ Identity Systems</li>
+					<li>→ Content Strategy</li>
+					<li>→ Digital Design</li>
+					<li>→ Naming</li>
 				</ul>
 			</div>
 		</div>
@@ -105,7 +105,7 @@ include "templates/header.php";
 		<div class="wrap">
 		    <div>
 	            <p class="blue Decima">Business Relationship <span class="replica">→</span></p>
-	            <p class="Leitura medium_title">We aim to build long lasting partnerships with our customers — jointly developing strategies to capture new opportunities for their brands, business, communication and culture.</p>
+	            <p class="Leitura medium_title full_width_message">We aim to build long lasting partnerships with our customers — jointly developing strategies to capture new opportunities for their brands, business, communication and culture.</p>
 	        </div>
 		</div> <!-- Wrap -->
 	</div>
@@ -116,7 +116,7 @@ include "templates/header.php";
 	<div class="wrap">
 	    <div class="section_pad">
             <p class="blue Decima">Process / how we make things happen <span class="replica">→</span></p>
-            <p class="Leitura medium_title">Our process is a journey of self discovery — we guide our clients through every step from the smallest strategic details to design and development.</p>
+            <p class="Leitura medium_title full_width_message">Our process is a journey of self discovery — we guide our clients through every step from the smallest strategic details to design and development.</p>
         </div>
 	</div> <!-- Wrap -->
 

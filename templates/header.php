@@ -62,7 +62,7 @@ global $bclass;
 	<header>
 
 		<div class="wrap">
-			<h3 id="nav_logo">RAIDHO</h3>
+			<h3 id="nav_logo"><span><img src="img/simbolo_raidho.svg"></span> RAIDHO</h3>
 
 			<ul id="nav" class="Decima">
 				<li><a href="index.php">Home</a></li><li>

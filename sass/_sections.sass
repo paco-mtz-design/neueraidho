@@ -1,4 +1,19 @@
-/* Sections */
+/* Secciones Informativas */
+/* About, Services, Contact */
+
+.back_img_quote
+	@extend .section_pad
+	color: white
+
+.bullet_list
+	color: $gray_regular
+
+h1.full_width_message
+	width: span(10)
+.full_width_message
+	width: span(9)
+
+
 
 /* Home */
 
@@ -32,6 +47,20 @@
 /* Log */
 
 .log
+	.instagram p
+		background-image: url('../img/iconset-instagram.svg')
+	.share p
+		background-image: url('../img/iconset-share.svg')
+	.twitter p
+		background-image: url('../img/iconset-twit.svg')
+	.work p
+		background-image: url('../img/iconset-work.svg')
+	.blog p
+		background-image: url('../img/iconset-blog.svg')
+	.dribble p
+		background-image: url('../img/iconset-dribble.svg')
+
+.log
 	> li
 		float: left
 		vertical-align: top
@@ -45,6 +74,14 @@
 			width: 100%
 		p
 			margin-bottom: 2.5em
+			background-repeat: no-repeat
+			background-size: 16px
+			background-position: 0% 10%
+			padding-left: 1.5em
+		p.small_title
+			padding-left: 1em
+		blockquote
+			margin-bottom: $bottom_margins
 
 .masonry
 	@include container
@@ -81,7 +118,6 @@ footer
 
 .people_founders,
 .people_team
-	padding: gutter()
 	@include clearfix
 	img
 		width: 100%
@@ -114,9 +150,6 @@ footer
 .border_section
 	@extend .section_pad
 	border-top: 1px solid $gray_light
-.back_img_quote
-	@extend .section_pad
-	color: white
 
 
 /* Blog Single */
@@ -159,9 +192,6 @@ footer
 		a:hover
 			color: $red
 
-
-/* Log Single */
-
 .log_single_wrap
 	position: relative
 	@include clearfix
@@ -171,3 +201,11 @@ footer
 			width: 100%
 	div:last-child
 		@include span(5 at 7 of 12 last)
+
+
+/* Work */
+
+#recent_work
+	.wrap.project_wrapper
+		@media (min-width: $large_break)
+			@include container(95%)
