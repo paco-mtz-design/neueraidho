@@ -46,8 +46,8 @@ include "templates/header.php";
 
 	<div class="wrap">
 	    <div>
-            <p class="blue Leitura">Jobs and Opportinitues <span class="replica">→</span></p>
-            <p class="Decima medium_title full_width_message">Great companies are made of great people. Drop us a line if you think Raidho is the right place for you to build your career and meet like-minded creatives.</p>
+            <p class="blue Decima">Jobs and Opportinitues <span class="replica">→</span></p>
+            <p class="Leitura medium_title full_width_message">Great companies are made of great people. Drop us a line if you think Raidho is the right place for you to build your career and meet like-minded creatives.</p>
         </div>
 		<div class="basic_grid two_col_grid">
 			<div>
