@@ -30,7 +30,7 @@ global $bclass;
 			    pager: false,
 			    auto: false,
 				prevText: "-",
-				nextText: "-", 
+				nextText: "-",
 			    nav: true,
 				manualControls: '#slider1-pager'
 			});
@@ -39,16 +39,16 @@ global $bclass;
 			    pager: false,
 			    auto: false,
 				prevText: "-",
-				nextText: "-", 
+				nextText: "-",
 			    nav: true,
 				manualControls: '#slider2-pager'
 			});
-			
+
 			$("#slider3").responsiveSlides({
 			    pager: false,
 			    auto: false,
 				prevText: "-",
-				nextText: "-", 
+				nextText: "-",
 			    nav: true,
 				manualControls: '#slider3-pager'
 			});
@@ -70,7 +70,7 @@ global $bclass;
 				<a href="work.php">Work</a></li><li>
 				<a href="services.php">Services</a></li><li>
 				<a href="recent.php">Recent</a></li>
-				<!-- <li><a href="contact.php">Contact</a></li> -->
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 			<ul id="dev_nav">
 				<li><a href="index.php">Home</a></li>
@@ -78,6 +78,7 @@ global $bclass;
 				<li><a href="work.php">Work</a></li>
 				<li><a href="services.php">Services</a></li>
 				<li><a href="recent.php">Recent</a></li>
+				<li><a href="contact.php">Contact</a></li>
 				<li><a href="work-single.php">S-Project</a></li>
 				<li><a href="blog-single.php">S-Blog</a></li>
 				<li><a href="log-single.php">S-Log</a></li>
