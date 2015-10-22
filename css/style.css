@@ -1240,16 +1240,57 @@ section.lightbox {
   width: 100%;
   height: 100%;
   display: none;
-  background-color: rgba(205, 255, 255, 0.9); }
+  background-color: rgba(255, 255, 255, 0.9); }
   section.lightbox .image, section.lightbox .prev_btn, section.lightbox .content, section.lightbox .close_btn, section.lightbox .next_btn {
     display: inline-block;
     vertical-align: top; }
   section.lightbox .prev_btn, section.lightbox .next_btn, section.lightbox .close_btn {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     height: 80px;
     width: 80px;
     background-position: center;
     background-repeat: no-repeat; }
   section.lightbox .prev_btn {
-    background-image: url("../img/arrow_squere1.svg"); }
+    margin-top: 10em;
+    background-image: url("../img/arrow_square1.svg"); }
   section.lightbox .next_btn {
-    background-image: url("../img/arrow_squere2.svg"); }
+    background-image: url("../img/arrow_square1.svg");
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+  section.lightbox .close_btn {
+    background-image: url("../img/close_square1.svg"); }
+  section.lightbox .prev_btn:hover, section.lightbox .next_btn:hover, section.lightbox .close_btn:hover {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out; }
+  section.lightbox .prev_btn:hover {
+    background-image: url("../img/arrow_square2.svg"); }
+  section.lightbox .next_btn:hover {
+    background-image: url("../img/arrow_square2.svg"); }
+  section.lightbox .close_btn:hover {
+    background-image: url("../img/close_square2.svg"); }
+  section.lightbox .image {
+    width: 45%; }
+    section.lightbox .image img {
+      width: 100%; }
+  section.lightbox .content {
+    width: 30%; }
+    section.lightbox .content > div {
+      display: table;
+      height: 100%; }
+      section.lightbox .content > div .top {
+        display: table-cell;
+        vertical-align: top;
+        margin-top: 10em;
+        height: auto; }
+      section.lightbox .content > div .bottom {
+        display: table-cell;
+        vertical-align: bottom; }

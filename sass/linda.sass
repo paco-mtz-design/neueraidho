@@ -253,16 +253,46 @@ section.lightbox
 	width: 100%
 	height: 100%
 	display: none
-	background-color: rgba(205, 255, 255, 0.9)
+	background-color: rgba(255, 255, 255, 0.9)
 	.image, .prev_btn, .content, .close_btn, .next_btn
 		display: inline-block
 		vertical-align: top
 	.prev_btn, .next_btn, .close_btn
+		+transition(all, 0.1s, ease-in-out)
 		height: 80px
 		width: 80px
 		background-position: center
 		background-repeat: no-repeat	
 	.prev_btn
-		background-image: url('../img/arrow_squere1.svg')
+		margin-top: 10em
+		background-image: url('../img/arrow_square1.svg')
 	.next_btn
-		background-image: url('../img/arrow_squere2.svg')
+		background-image: url('../img/arrow_square1.svg')
+		+transform(rotate(180deg))
+	.close_btn
+		background-image: url('../img/close_square1.svg')
+	.prev_btn:hover, .next_btn:hover, .close_btn:hover
+		+transition(all, 0.1s, ease-in-out)
+	.prev_btn:hover
+		background-image: url('../img/arrow_square2.svg')
+	.next_btn:hover
+		background-image: url('../img/arrow_square2.svg')
+	.close_btn:hover
+		background-image: url('../img/close_square2.svg')
+	.image
+		width: 45%
+		img
+			width: 100%
+	.content
+		width: 30%
+		> div
+			display: table
+			height: 100%
+			.top
+				display: table-cell
+				vertical-align: top
+				margin-top: 10em
+				height: auto				
+			.bottom
+				display: table-cell
+				vertical-align: bottom
