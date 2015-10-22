@@ -1,21 +1,19 @@
 /* Alternative Setup */
 
 .bg_img
-	background-size: cover
+	+background-size(cover)
 	background-position: center
 	background-repeat: no-repeat
 
 button
-	-webkit-appearance: value
-	-moz-appearance: value
-	appearance: value
-	border-radius: 0
+	+appearance(none)
+	+border-radius(0)
 	border: none
 	background-color: rgba(0, 0, 0, 0)
 	cursor: pointer
 	border: none
 
-ul.tabs-pager, ul.dots-pager, .main_banner.wrap
+ul.tabs-pager, ul.dots-pager
 	width: 90%
 	@media (min-width: $large_break)
 		width: 80%
@@ -238,4 +236,8 @@ ul.dots-pager
 	@media (max-width: $tablet_break)
 		display: none
 
+
+/* LIGHTBOX */
+section.lightbox
+	background-color: (255, 255, 255, 0.9)
 

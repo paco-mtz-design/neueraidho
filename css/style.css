@@ -968,30 +968,34 @@ footer ul {
 
 /* Alternative Setup */
 .bg_img, section.main_banner .wrap li .image, .wide_slider li .image {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 
 button {
-  -webkit-appearance: value;
-  -moz-appearance: value;
-  appearance: value;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
   border: none;
   background-color: transparent;
   cursor: pointer;
   border: none; }
 
-ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+ul.tabs-pager, ul.dots-pager {
   width: 90%; }
   @media (min-width: 1400px) {
-    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+    ul.tabs-pager, ul.dots-pager {
       width: 80%; } }
   @media (max-width: 900px) {
-    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+    ul.tabs-pager, ul.dots-pager {
       width: 95%; } }
   @media (max-width: 620px) {
-    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+    ul.tabs-pager, ul.dots-pager {
       width: 98%; } }
 
 /* Slider Tabs */
@@ -1221,3 +1225,7 @@ ul.dots-pager {
   @media (max-width: 900px) {
     ul.dots-pager {
       display: none; } }
+
+/* LIGHTBOX */
+section.lightbox {
+  background-color: 255, 255, 255, 0.9; }
