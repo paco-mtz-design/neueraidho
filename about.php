@@ -14,7 +14,7 @@ include "templates/header.php";
 	<div class="wrap">
 		<div>
 			<h2 class="Decima">About our Studio</h2>
-			<h1 class="Leitura"><span class="red">Raidho</span> is the name of an r-rune, describing the concepts of "<em>ride, or journey</em>". That’s the simple idea upon which our studio was founded back in 2012.</h1>
+			<h1 class="Leitura full_width_message"><span class="red">Raidho</span> is the name of an r-rune, describing the concepts of "<em>ride, or journey</em>". That’s the simple idea upon which our studio was founded back in 2012.</h1>
 		</div>
 	</div>
 

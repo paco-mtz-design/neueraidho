@@ -197,16 +197,16 @@ h4, h3, h2, h1 {
   float: right; }
 
 /* Spacing */
-.section_pad, section, .e_nav_bottom, footer, .border_section, .back_img_quote {
+.section_pad, section, .e_nav_bottom, .back_img_quote, footer, .border_section {
   padding: 4.375em 0; }
   @media (min-width: 1400px) {
-    .section_pad, section, .e_nav_bottom, footer, .border_section, .back_img_quote {
+    .section_pad, section, .e_nav_bottom, .back_img_quote, footer, .border_section {
       padding: 4em 0; } }
   @media (max-width: 900px) {
-    .section_pad, section, .e_nav_bottom, footer, .border_section, .back_img_quote {
+    .section_pad, section, .e_nav_bottom, .back_img_quote, footer, .border_section {
       padding: 2em 0; } }
   @media (max-width: 620px) {
-    .section_pad, section, .e_nav_bottom, footer, .border_section, .back_img_quote {
+    .section_pad, section, .e_nav_bottom, .back_img_quote, footer, .border_section {
       padding: 1em 0; } }
 
 .inner_section_pad, .e_nav1 a.nav1_bttn > div:nth-child(2), .e_nav2 a.nav2_bttn > div:nth-child(2), .e_nav3 a.nav2_bttn > div:nth-child(2), .feat_project_slider_info {
@@ -467,6 +467,26 @@ header + .wrap {
       display: inline-block;
       margin-right: 1em; }
 
+.contact_complex form ul > div:first-child {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%; }
+  .contact_complex form ul > div:first-child li {
+    width: 45%; }
+    .contact_complex form ul > div:first-child li input {
+      width: 100%; }
+.contact_complex form ul > div:last-child {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0; }
+  .contact_complex form ul > div:last-child li {
+    width: 100%; }
+    .contact_complex form ul > div:last-child li textarea {
+      width: 100%;
+      height: 7.5em; }
+    .contact_complex form ul > div:last-child li input[type=submit] {
+      display: block; }
+
 .btn {
   background-color: #dd1919;
   padding: 10px 30px;
@@ -542,7 +562,20 @@ form button, form input[type=submit] {
   .share_btns.squared_btns li {
     margin: 0 1em 1em 0; }
 
-/* Sections */
+/* Secciones Informativas */
+/* About, Services, Contact */
+.back_img_quote {
+  color: white; }
+
+.bullet_list {
+  color: #cbcbcb; }
+
+h1.full_width_message {
+  width: 83.05085%; }
+
+.full_width_message {
+  width: 74.57627%; }
+
 /* Home */
 .home_cover {
   min-height: 33.75em; }
@@ -736,12 +769,6 @@ footer ul {
 
 .border_section {
   border-top: 1px solid #f0f0f0; }
-
-.back_img_quote {
-  color: white; }
-
-.bullet_list {
-  color: #cbcbcb; }
 
 /* Blog Single */
 .blog_wrap {
