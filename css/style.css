@@ -979,7 +979,8 @@ footer ul {
       width: 100%; }
 
 .bl-party-random-grid img {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  width: 100%; }
 .bl-party-random-grid div {
   overflow: hidden; }
 .bl-party-random-grid .rand-grid-a {
