@@ -21,6 +21,7 @@ global $bclass;
 	<link rel="stylesheet" type="text/css" href="fonts/decima/MyFontsWebfontsKit.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
 	<script src="js/masonry.pkgd.js"></script>
 	<script src="js/imagesloaded.pkgd.js"></script>
 	<script src="js/scripts.js"></script>
@@ -52,6 +53,20 @@ global $bclass;
 			    nav: true,
 				manualControls: '#slider3-pager'
 			});
+		});
+
+		$(".fancybox").fancybox({
+			prevEffect	: 'fade',
+			nextEffect	: 'fade',
+			maxHeight	: 700,
+			fitToView	: false,
+			width		: '100%',
+			arrows		: false,
+			autoSize	: false,
+			closeBtn	: false,
+			closeClick	: false,
+			openEffect	: 'none',
+			closeEffect	: 'none'
 		});
 	</script>
 
