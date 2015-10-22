@@ -1,22 +1,24 @@
 /* Alternative Setup */
 
 .bg_img
-	+background-size(cover)
+	background-size: cover
 	background-position: center
 	background-repeat: no-repeat
 
 button
-	+appearance(none)
-	+border-radius(0)
+	-webkit-appearance: value
+	-moz-appearance: value
+	appearance: value
+	border-radius: 0
 	border: none
 	background-color: rgba(0, 0, 0, 0)
 	cursor: pointer
 	border: none
 
-ul.tabs-pager
+ul.tabs-pager, ul.dots-pager, .main_banner.wrap
 	width: 90%
 	@media (min-width: $large_break)
-		width: 70%
+		width: 80%
 	@media (max-width: $tablet_break)
 		width: 95%
 	@media (max-width: $phone_break)
@@ -129,6 +131,7 @@ section.main_banner
 				.image
 					height: 20em
 				.txt
+					padding: 2em 2em 6em 2em
 					height: auto
 
 .rslides_nav
@@ -234,3 +237,5 @@ ul.dots-pager
 			color: $white
 	@media (max-width: $tablet_break)
 		display: none
+
+
