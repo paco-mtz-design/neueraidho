@@ -615,6 +615,19 @@ h1.full_width_message {
   margin-right: -100%; }
 
 /* Log */
+.log .instagram p {
+  background-image: url("../img/iconset-instagram.svg"); }
+.log .share p {
+  background-image: url("../img/iconset-share.svg"); }
+.log .twitter p {
+  background-image: url("../img/iconset-twit.svg"); }
+.log .work p {
+  background-image: url("../img/iconset-work.svg"); }
+.log .blog p {
+  background-image: url("../img/iconset-blog.svg"); }
+.log .dribble p {
+  background-image: url("../img/iconset-dribble.svg"); }
+
 .log > li {
   float: left;
   vertical-align: top; }
@@ -627,7 +640,15 @@ h1.full_width_message {
     margin-bottom: 1.25em;
     width: 100%; }
   .log > li p {
-    margin-bottom: 2.5em; }
+    margin-bottom: 2.5em;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 0% 10%;
+    padding-left: 1.5em; }
+  .log > li p.small_title {
+    padding-left: 1em; }
+  .log > li blockquote {
+    margin-bottom: 1.5em; }
 
 .masonry {
   max-width: 100%;

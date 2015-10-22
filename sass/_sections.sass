@@ -47,6 +47,20 @@ h1.full_width_message
 /* Log */
 
 .log
+	.instagram p
+		background-image: url('../img/iconset-instagram.svg')
+	.share p
+		background-image: url('../img/iconset-share.svg')
+	.twitter p
+		background-image: url('../img/iconset-twit.svg')
+	.work p
+		background-image: url('../img/iconset-work.svg')
+	.blog p
+		background-image: url('../img/iconset-blog.svg')
+	.dribble p
+		background-image: url('../img/iconset-dribble.svg')
+
+.log
 	> li
 		float: left
 		vertical-align: top
@@ -60,6 +74,14 @@ h1.full_width_message
 			width: 100%
 		p
 			margin-bottom: 2.5em
+			background-repeat: no-repeat
+			background-size: 16px
+			background-position: 0% 10%
+			padding-left: 1.5em
+		p.small_title
+			padding-left: 1em
+		blockquote
+			margin-bottom: $bottom_margins
 
 .masonry
 	@include container
