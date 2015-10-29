@@ -153,16 +153,17 @@ header + .wrap
 		position: relative
 		background-color: $white
 		> div:first-child
-			@include span(2 of 6)
+			@include span(3 of 6)
 			min-height: 100%
 			background-size: cover
 			background-repeat: no-repeat
 			background-position: top center
 		> div:nth-child(2)
-			@include span(4 at 3 of 6)
+			@include span(3 at 4 of 6)
 			@extend .inner_section_pad
 	@media (max-width: $tablet_break)
-		@include span(10 at 2 of 12)
+		width: 100%
+		margin-bottom: $bottom_margins
 
 
 /* Contact Call to Action banner */

@@ -138,7 +138,7 @@ body {
   font-size: 1em; }
 
 .small_paragraph, #dev_nav li {
-  font-size: 0.875em; }
+  font-size: 1em; }
 
 p {
   margin-bottom: 1.5em; }
@@ -446,7 +446,7 @@ header + .wrap {
     position: relative;
     background-color: #ffffff; }
     .e_nav2 a.nav2_bttn > div:first-child, .e_nav3 a.nav2_bttn > div:first-child {
-      width: 31.03448%;
+      width: 48.27586%;
       float: left;
       margin-right: 3.44828%;
       min-height: 100%;
@@ -454,14 +454,13 @@ header + .wrap {
       background-repeat: no-repeat;
       background-position: top center; }
     .e_nav2 a.nav2_bttn > div:nth-child(2), .e_nav3 a.nav2_bttn > div:nth-child(2) {
-      width: 65.51724%;
+      width: 48.27586%;
       float: right;
       margin-right: 0; }
   @media (max-width: 900px) {
     .e_nav2, .e_nav3 {
-      width: 83.05085%;
-      float: left;
-      margin-right: 1.69492%; } }
+      width: 100%;
+      margin-bottom: 1.5em; } }
 
 /* Contact Call to Action banner */
 .contact-banner {
