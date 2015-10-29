@@ -241,7 +241,7 @@ ul.dots-pager
 
 // reset fancybox
 .fancybox-wrap
-	top: 0!important
+	top: 5.4em!important
 	left: 0!important
 	height: 100%!important
 	width: 100%!important
@@ -254,7 +254,7 @@ section.lightbox
 	height: 100%
 	display: none
 	background-color: rgba(255, 255, 255, 0.9)
-	.image, .prev_btn, .content, .close_btn, .next_btn
+	.image, .prev_btn, .content, .right_controls
 		display: inline-block
 		vertical-align: top
 	.prev_btn, .next_btn, .close_btn
@@ -263,13 +263,18 @@ section.lightbox
 		width: 80px
 		background-position: center
 		background-repeat: no-repeat	
+
 	.prev_btn
-		margin-top: 10em
+		margin: 15em 1em 0 0
 		background-image: url('../img/arrow_square1.svg')
 	.next_btn
+		display: block
+		position: absolute
+		top: 15em
 		background-image: url('../img/arrow_square1.svg')
 		+transform(rotate(180deg))
 	.close_btn
+		display: block
 		background-image: url('../img/close_square1.svg')
 	.prev_btn:hover, .next_btn:hover, .close_btn:hover
 		+transition(all, 0.1s, ease-in-out)
@@ -279,20 +284,53 @@ section.lightbox
 		background-image: url('../img/arrow_square2.svg')
 	.close_btn:hover
 		background-image: url('../img/close_square2.svg')
+
 	.image
 		width: 45%
+		max-width: 37.5em
 		img
 			width: 100%
 	.content
 		width: 30%
-		> div
-			display: table
-			height: 100%
-			.top
-				display: table-cell
-				vertical-align: top
-				margin-top: 10em
-				height: auto				
-			.bottom
-				display: table-cell
-				vertical-align: bottom
+		margin-left: 1em 
+		display: inline-block
+		.top
+			display: inline-block
+			vertical-align: top
+			margin-top: 9em
+			height: auto				
+		.bottom
+			margin-top: 10em
+		.tags
+			@extend .small_title
+			li
+				display: inline-block
+		.info
+			@extend .Decima
+			margin: 2em 0 0 2em
+			position: relative
+		.info:before
+			content: ''
+			background-image: url('../img/camera.svg')
+			background-repeat: no-repeat
+			background-size: contain
+			position: absolute
+			width: 1em
+			height: 1em
+			left: -2em
+		.social li a
+			+transition(all, 0.1s, ease-in-out)
+			float: left
+			margin-right: 4%
+			margin-bottom: 3%
+			padding: 0.75em 1.5em
+			color: $gray_medium
+			border: 1px solid $gray_regular
+			&:hover
+				+transition(all, 0.1s, ease-in-out)
+				border: 1px solid $red
+				color: $white
+				background-color: $red
+	.right_controls
+		display: inline-block
+		position: relative

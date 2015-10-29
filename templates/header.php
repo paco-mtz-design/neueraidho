@@ -59,14 +59,14 @@ global $bclass;
 			prevEffect	: 'fade',
 			nextEffect	: 'fade',
 			maxHeight	: 700,
-			fitToView	: false,
+			fitToView	: true,
 			width		: '100%',
 			arrows		: false,
 			autoSize	: false,
 			closeBtn	: false,
 			closeClick	: false,
-			openEffect	: 'none',
-			closeEffect	: 'none'
+			openEffect	: 'fade',
+			closeEffect	: 'fade'
 		});
 	</script>
 
