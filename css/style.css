@@ -602,6 +602,9 @@ h1.full_width_message {
 /* Home */
 .home_cover {
   min-height: 33.75em; }
+  @media (max-width: 620px) {
+    .home_cover {
+      min-height: 18em; } }
 
 .home_cover_info {
   width: 83.05085%;
