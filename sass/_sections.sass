@@ -229,3 +229,12 @@ footer
 	.wrap.project_wrapper
 		@media (min-width: $large_break)
 			@include container(95%)
+
+#recent_work
+	@media (max-width: $phone_break)
+		.bl-party-four-w-captions ul li,
+		.bl-party-three-w-captions ul li
+			@include gallery(6 of 12)
+		.bl-party-two-w-captions ul li
+			@include reset-gallery
+			@include span(full)
