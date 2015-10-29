@@ -132,7 +132,7 @@ body {
       font-size: 1.125em; } }
   @media (max-width: 620px) {
     .small_title, h4 {
-      font-size: 0.75em; } }
+      font-size: 1em; } }
 
 .paragraph, p {
   font-size: 1em; }
@@ -356,6 +356,9 @@ a {
 /* Top Nav */
 header {
   height: 5.125em; }
+  @media (max-width: 900px) {
+    header {
+      height: auto; } }
   header #nav_logo {
     float: left;
     padding: 0.45em 0;
@@ -369,6 +372,9 @@ header {
       height: inherit;
       float: left;
       text-align: center; }
+      @media (max-width: 900px) {
+        header #nav li {
+          width: 100%; } }
       header #nav li a {
         display: block;
         padding: 1.8em 2.063em; }
