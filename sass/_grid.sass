@@ -11,6 +11,15 @@ $susy: (flow: ltr, output: float, math: fluid, column-width: false,	container: a
 // .container
 // 	@include container
 
+
+/* Custom Mixins for Susy behavior */
+@mixin reset-gallery
+	&:nth-child(1n)
+		margin-left: 0
+		margin-right: gutter()
+	&:last-child
+		margin-right: 0
+
 /* Makes border-box properties */
 @include border-box-sizing
 
@@ -58,13 +67,22 @@ section
 /* Basic Grids */
 .basic_grid
 	overflow: hidden
+	@media (max-width: $phone_break)
+		margin-bottom: $bottom_margins_grid
 
 .two_col_grid > div,
 .two_col_grid > li
 	@include gallery(6 of 12)
+	@media (max-width: $phone_break)
+		@include reset-gallery
+		@include span(full)
 .three_col_grid > div,
 .three_col_grid > li
 	@include gallery(4 of 12)
+	@media (max-width: $phone_break)
+		@include gallery(6 of 12)
 .four_col_grid > div,
 .four_col_grid > li
 	@include gallery(3 of 12)
+	@media (max-width: $phone_break)
+		@include gallery(6 of 12)

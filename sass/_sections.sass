@@ -23,6 +23,9 @@ h1.full_width_message
 		min-height: 18em
 .home_cover_info
 	@include span(10)
+	@media (max-width: $phone_break)
+		@include span(12)
+
 
 .feat_project
 	min-height: 41.875em

@@ -136,6 +136,7 @@ h4, h3, h2, h1 {
 
 /* Susy Settings */
 /* Susy Basics */
+/* Custom Mixins for Susy behavior */
 /* Makes border-box properties */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -210,6 +211,9 @@ section {
 /* Basic Grids */
 .basic_grid {
   overflow: hidden; }
+  @media (max-width: 620px) {
+    .basic_grid {
+      margin-bottom: 4.375em; } }
 
 .two_col_grid > div,
 .two_col_grid > li {
@@ -226,6 +230,20 @@ section {
     margin-left: 50.84746%;
     margin-right: -100%;
     clear: none; }
+  @media (max-width: 620px) {
+    .two_col_grid > div,
+    .two_col_grid > li {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; }
+      .two_col_grid > div:nth-child(1n),
+      .two_col_grid > li:nth-child(1n) {
+        margin-left: 0;
+        margin-right: 1.69492%; }
+      .two_col_grid > div:last-child,
+      .two_col_grid > li:last-child {
+        margin-right: 0; } }
 
 .three_col_grid > div,
 .three_col_grid > li {
@@ -247,6 +265,22 @@ section {
     margin-left: 67.79661%;
     margin-right: -100%;
     clear: none; }
+  @media (max-width: 620px) {
+    .three_col_grid > div,
+    .three_col_grid > li {
+      width: 49.15254%;
+      float: left; }
+      .three_col_grid > div:nth-child(2n + 1),
+      .three_col_grid > li:nth-child(2n + 1) {
+        margin-left: 0;
+        margin-right: -100%;
+        clear: both;
+        margin-left: 0; }
+      .three_col_grid > div:nth-child(2n + 2),
+      .three_col_grid > li:nth-child(2n + 2) {
+        margin-left: 50.84746%;
+        margin-right: -100%;
+        clear: none; } }
 
 .four_col_grid > div,
 .four_col_grid > li {
@@ -273,6 +307,22 @@ section {
     margin-left: 76.27119%;
     margin-right: -100%;
     clear: none; }
+  @media (max-width: 620px) {
+    .four_col_grid > div,
+    .four_col_grid > li {
+      width: 49.15254%;
+      float: left; }
+      .four_col_grid > div:nth-child(2n + 1),
+      .four_col_grid > li:nth-child(2n + 1) {
+        margin-left: 0;
+        margin-right: -100%;
+        clear: both;
+        margin-left: 0; }
+      .four_col_grid > div:nth-child(2n + 2),
+      .four_col_grid > li:nth-child(2n + 2) {
+        margin-left: 50.84746%;
+        margin-right: -100%;
+        clear: none; } }
 
 /* Color classes */
 .gray_dark {
@@ -598,6 +648,12 @@ h1.full_width_message {
   width: 83.05085%;
   float: left;
   margin-right: 1.69492%; }
+  @media (max-width: 620px) {
+    .home_cover_info {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; } }
 
 .feat_project {
   min-height: 41.875em; }
