@@ -613,10 +613,18 @@ h1.full_width_message {
 
 .feat_project {
   min-height: 41.875em; }
+  @media (max-width: 620px) {
+    .feat_project {
+      min-height: 23em; } }
   .feat_project .feat_project_info {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%; }
+    @media (max-width: 620px) {
+      .feat_project .feat_project_info {
+        width: 66.10169%;
+        float: left;
+        margin-right: 1.69492%; } }
 
 .feat_project_slider {
   width: 100%;
@@ -690,10 +698,23 @@ h1.full_width_message {
 
 .masonry_column {
   width: 32.20339%; }
+  @media (max-width: 620px) {
+    .masonry_column {
+      width: 49.15254%; } }
 
 .masonry_item {
   width: 32.20339%;
   margin-top: 1.69492%; }
+  @media (max-width: 620px) {
+    .masonry_item {
+      width: 49.15254%; } }
+
+@media (max-width: 620px) {
+  .twitter.masonry_item {
+    width: 100%; } }
+@media (max-width: 620px) {
+  .twitter.masonry_item blockquote {
+    font-size: 2em; } }
 
 .twitter > div {
   padding: 2.5em;

@@ -26,8 +26,12 @@ h1.full_width_message
 
 .feat_project
 	min-height: 41.875em
+	@media (max-width: $phone_break)
+		min-height: 23em
 	.feat_project_info
 		@include span(4)
+		@media (max-width: $phone_break)
+			@include span(8)
 
 .feat_project_slider
 	@include span(12)
@@ -91,9 +95,19 @@ h1.full_width_message
 	width: gutter()
 .masonry_column
 	width: span(4)
+	@media (max-width: $phone_break)
+		width: span(6)
 .masonry_item
 	width: span(4)
 	margin-top: gutter()
+	@media (max-width: $phone_break)
+		width: span(6)
+.twitter.masonry_item
+	@media (max-width: $phone_break)
+		width: span(12)
+	blockquote
+		@media (max-width: $phone_break)
+			font-size: 2em
 
 .twitter > div
 	padding: 2.5em
