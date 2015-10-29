@@ -710,10 +710,12 @@ h1.full_width_message {
       width: 49.15254%; } }
 
 @media (max-width: 620px) {
-  .twitter.masonry_item {
+  .twitter.masonry_item,
+  .work.masonry_item {
     width: 100%; } }
 @media (max-width: 620px) {
-  .twitter.masonry_item blockquote {
+  .twitter.masonry_item blockquote,
+  .work.masonry_item blockquote {
     font-size: 2em; } }
 
 .twitter > div {
