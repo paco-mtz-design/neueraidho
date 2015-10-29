@@ -182,7 +182,7 @@ h4, h3, h2, h1 {
         clear: both; } }
   @media (max-width: 620px) {
     .wrap {
-      max-width: 98%;
+      max-width: 95%;
       margin-left: auto;
       margin-right: auto; }
       .wrap:after {
