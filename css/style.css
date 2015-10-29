@@ -417,10 +417,27 @@ header + .wrap {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top center; }
+      @media (max-width: 900px) {
+        .e_nav1 a.nav1_bttn > div:first-child {
+          width: 49.15254%;
+          float: left;
+          margin-right: 1.69492%; } }
     .e_nav1 a.nav1_bttn > div:nth-child(2) {
       width: 48.97959%;
       float: left;
       margin-right: 2.04082%; }
+      @media (max-width: 900px) {
+        .e_nav1 a.nav1_bttn > div:nth-child(2) {
+          width: 49.15254%;
+          float: right;
+          margin-right: 0; } }
+  @media (max-width: 900px) {
+    .e_nav1 {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 1.5em; } }
 
 .e_nav_bottom {
   position: relative; }

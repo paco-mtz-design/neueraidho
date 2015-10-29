@@ -129,13 +129,20 @@ header + .wrap
 			background-size: cover
 			background-repeat: no-repeat
 			background-position: top center
+			@media (max-width: $tablet_break)
+				@include span(6 of 12)
 		> div:nth-child(2)
 			@include span(5 at 5 of 10)
 			@extend .inner_section_pad
+			@media (max-width: $tablet_break)
+				@include span(6 at 7 of 12)
 		// &:hover
 		// 	> div:nth-child(2)
 		// 		margin-top: .1em
-
+	@media (max-width: $tablet_break)
+		@include span(12 at 1 of 12)
+		margin-bottom: $bottom_margins
+		
 .e_nav_bottom
 	@extend .section_pad
 	position: relative
