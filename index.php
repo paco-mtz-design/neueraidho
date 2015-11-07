@@ -44,6 +44,8 @@ include "templates/header.php";
 
 	</section>
 
+	<?php include 'templates/slider_bullets.php'; ?>
+
 	<section id="loader" class="wrap">
 		<h2 class="Decima">Recent Activity</h2>
 		<ul class="log masonry">

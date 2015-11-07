@@ -1178,14 +1178,16 @@ ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
 
 /* Slider Tabs */
 section.main_banner .wrap {
-  overflow: hidden;
   position: relative;
   overflow: hidden; }
+  section.main_banner .wrap #slider3 li {
+    height: 28.75em;
+    cursor: pointer; }
   section.main_banner .wrap li {
-    width: 100%;
-    display: table;
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    width: 100%;
+    display: table; }
     section.main_banner .wrap li > div {
       width: 50%;
       height: 100%;
