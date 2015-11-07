@@ -16,8 +16,8 @@ Neue Raidho Website
 				<div class="txt white_bg">
 					<div>
 						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
-						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red">Read the full story 1 →</p></a>
+						<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+						<a href="#"><p class="Decima red phone_hide">Read the full story 1 →</p></a>
 					</div>
 				</div>
 			</li>
@@ -26,8 +26,8 @@ Neue Raidho Website
 				<div class="txt white_bg">
 					<div>
 						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
-						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red">Read the full story 2 →</p></a>
+						<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+						<a href="#"><p class="Decima red phone_hide">Read the full story 2 →</p></a>
 					</div>
 				</div>
 			</li>
@@ -36,8 +36,8 @@ Neue Raidho Website
 				<div class="txt white_bg">
 					<div>
 						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
-						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red">Read the full story 3 →</p></a>
+						<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+						<a href="#"><p class="Decima red phone_hide">Read the full story 3 →</p></a>
 					</div>
 				</div>
 			</li>
@@ -46,8 +46,8 @@ Neue Raidho Website
 				<div class="txt white_bg">
 					<div>
 						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
-						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red">Read the full story 4 →</p></a>
+						<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+						<a href="#"><p class="Decima red phone_hide">Read the full story 4 →</p></a>
 					</div>
 				</div>
 			</li>

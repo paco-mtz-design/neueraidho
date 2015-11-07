@@ -25,7 +25,8 @@ h1.full_width_message
 	@include span(10)
 	@media (max-width: $phone_break)
 		@include span(12)
-
+		h1
+			color: $gray_dark
 
 .feat_project
 	min-height: 41.875em
@@ -34,7 +35,7 @@ h1.full_width_message
 	.feat_project_info
 		@include span(4)
 		@media (max-width: $phone_break)
-			@include span(8)
+			@include span(12)
 
 .feat_project_small
 	min-height: 23em

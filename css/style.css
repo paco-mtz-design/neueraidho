@@ -653,7 +653,9 @@ h1.full_width_message {
       width: 100%;
       float: left;
       margin-left: 0;
-      margin-right: 0; } }
+      margin-right: 0; }
+      .home_cover_info h1 {
+        color: #2f2f2f; } }
 
 .feat_project {
   min-height: 41.875em; }
@@ -666,9 +668,10 @@ h1.full_width_message {
     margin-right: 1.69492%; }
     @media (max-width: 620px) {
       .feat_project .feat_project_info {
-        width: 66.10169%;
+        width: 100%;
         float: left;
-        margin-right: 1.69492%; } }
+        margin-left: 0;
+        margin-right: 0; } }
 
 .feat_project_small {
   min-height: 23em; }
@@ -1417,3 +1420,15 @@ ul.dots-pager {
   @media (max-width: 900px) {
     ul.dots-pager {
       display: none; } }
+
+@media (max-width: 620px) {
+  .phone_hide {
+    display: none; } }
+
+.phone_thumb {
+  display: none;
+  width: 100%;
+  padding-bottom: 1.5em; }
+  @media (max-width: 620px) {
+    .phone_thumb {
+      display: block; } }

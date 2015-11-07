@@ -11,21 +11,23 @@ include "templates/header.php";
 	<section class="home_cover">
 		<div class="wrap">
 			<div class="home_cover_info">
+				<img class="phone_thumb" src="img/home_cover_back.jpg">
 				<h1 class="white">Raidho is a Mexican Design Firm focused in creating compelling narratives, readable through brands and interactive media.</h1>
 			</div>
 		</div>
-		<div class="transp_back_image" style="background-image: url(img/home_cover_back.jpg)"></div>
+		<div class="transp_back_image phone_hide" style="background-image: url(img/home_cover_back.jpg)"></div>
 	</section>
 
 	<section class="feat_project">
 		<div class="wrap">
 			<div class="feat_project_info">
-				<h2><span class="white">Featured Project:</span> Brand Redesign for Major Hospital ABC.</h2>
-				<p class="Decima">After more than 25 years without a major brand redesign, we had the opportunity to completely revamp the brand and visual identity for this 120 years old hospital.</p>
-				<p class="Decima white"><a href="#">Read the full story →</a></p>
+				<img class="phone_thumb" src="img/featured_single.jpg">
+				<h2><span class="white phone_hide">Featured Project:</span> Brand Redesign for Major Hospital ABC.</h2>
+				<p class="Decima phone_hide">After more than 25 years without a major brand redesign, we had the opportunity to completely revamp the brand and visual identity for this 120 years old hospital.</p>
+				<p class="Decima white phone_hide"><a href="#">Read the full story →</a></p>
 			</div>
 		</div>
-		<div class="transp_back_image" style="background-image: url(img/featured_single.jpg)"></div>
+		<div class="transp_back_image phone_hide" style="background-image: url(img/featured_single.jpg)"></div>
 	</section>
 
 	<section class="gray_light_bg">
