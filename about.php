@@ -114,11 +114,10 @@ include "templates/header.php";
 
 <?php include "templates/extended_nav.php"; ?>
 
-	<section class="feat_project">
+	<section class="feat_project_small">
 		<div class="wrap">
 			<div class="feat_project_info">
 				<h2><span class="white">Featured Project:</span> Brand Redesign for Major Hospital ABC.</h2>
-				<p class="Decima">After more than 25 years without a major brand redesign, we had the opportunity to completely revamp the brand and visual identity for this 120 years old hospital.</p>
 				<p class="Decima white"><a href="#">Read the full story →</a></p>
 			</div>
 		</div>

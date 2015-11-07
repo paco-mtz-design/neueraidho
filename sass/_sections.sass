@@ -36,6 +36,15 @@ h1.full_width_message
 		@media (max-width: $phone_break)
 			@include span(8)
 
+.feat_project_small
+	min-height: 23em
+	@media (max-width: $phone_break)
+		min-height: 16em
+	.feat_project_info
+		@include span(4)
+		@media (max-width: $phone_break)
+			@include span(8)
+
 .feat_project_slider
 	@include span(12)
 	@extend .white_bg
@@ -227,6 +236,7 @@ footer
 /* Work */
 
 #recent_work
+	padding-top: 0
 	.wrap.project_wrapper
 		@media (min-width: $large_break)
 			@include container(95%)

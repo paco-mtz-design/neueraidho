@@ -670,6 +670,21 @@ h1.full_width_message {
         float: left;
         margin-right: 1.69492%; } }
 
+.feat_project_small {
+  min-height: 23em; }
+  @media (max-width: 620px) {
+    .feat_project_small {
+      min-height: 16em; } }
+  .feat_project_small .feat_project_info {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; }
+    @media (max-width: 620px) {
+      .feat_project_small .feat_project_info {
+        width: 66.10169%;
+        float: left;
+        margin-right: 1.69492%; } }
+
 .feat_project_slider {
   width: 100%;
   float: left;
@@ -955,15 +970,17 @@ footer ul {
     margin-right: 0; }
 
 /* Work */
-@media (min-width: 1400px) {
-  #recent_work .wrap.project_wrapper {
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto; }
-    #recent_work .wrap.project_wrapper:after {
-      content: " ";
-      display: block;
-      clear: both; } }
+#recent_work {
+  padding-top: 0; }
+  @media (min-width: 1400px) {
+    #recent_work .wrap.project_wrapper {
+      max-width: 95%;
+      margin-left: auto;
+      margin-right: auto; }
+      #recent_work .wrap.project_wrapper:after {
+        content: " ";
+        display: block;
+        clear: both; } }
 
 @media (max-width: 620px) {
   #recent_work .bl-party-four-w-captions ul li,
