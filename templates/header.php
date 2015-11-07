@@ -64,6 +64,17 @@ global $bclass;
 		<div class="wrap">
 			<h3 id="nav_logo"><span><img src="img/simbolo_raidho.svg"></span> RAIDHO</h3>
 
+			<a id="mobile_nav_toggl" class="Decima" href="#">&#9776;</a>
+			<script>
+				$(document).ready(function() {
+					$('#mobile_nav_toggl').click(function(e) {
+						$(this).toggleClass('active');
+						$('#nav').toggleClass('active');
+						e.preventDefault();
+					});
+				});
+			</script>
+
 			<ul id="nav" class="Decima">
 				<li><a href="index.php">Home</a></li><li>
 				<a href="about.php">About</a></li><li>

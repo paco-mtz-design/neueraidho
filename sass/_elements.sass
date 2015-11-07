@@ -78,6 +78,9 @@ header
 			height: .7em
 	#nav
 		float: right
+		@media (max-width: $tablet_break)
+			width: 100%
+			display: none
 		li
 			width: 8.75em
 			height: inherit
@@ -91,6 +94,17 @@ header
 				&:hover
 					@extend .red_bg
 					color: $white
+		&.active
+			display: block
+#mobile_nav_toggl
+	display: none
+	float: right
+	font-size: 1.5em
+	padding: .5em
+	@media (max-width: $tablet_break)
+		display: block
+	&.active
+		color: $red
 
 header + .wrap
 	margin-top: 1em
