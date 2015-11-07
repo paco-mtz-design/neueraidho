@@ -98,6 +98,8 @@ include "templates/header.php";
         </div>
     </div>
 
+<?php include "templates/slider_huge.php"; ?>
+
 <?php include "templates/contact_share.php"; ?>
 
 <?php // more projects ?>

@@ -15,18 +15,6 @@ button
 	cursor: pointer
 	border: none
 
-ul.dots-pager
-	width: 90%
-	@media (min-width: $large_break)
-		width: 80%
-	@media (max-width: $tablet_break)
-		width: 95%
-	@media (max-width: $phone_break)
-		width: 98%
-
-
-
-
 /* Slider Tabs */
 
 div.main_banner
@@ -108,7 +96,7 @@ div.main_banner
 			a
 				border: 4px solid $gray_regular
 				background-color: $gray_regular
-	.wrap:hover
+	.slider_container:hover
 		.image
 			+transition(all, 0.1s, ease-in-out)
 			+transform( scale(1))
@@ -119,11 +107,11 @@ div.main_banner
 			li
 				a
 					display: none
-		.wrap
+		.slider_container
 			.arrow_navigation
 				display: block
 	@media (max-width: $phone_break)
-		.wrap
+		.slider_container
 			height: auto
 			li
 				height: auto
@@ -138,10 +126,6 @@ div.main_banner
 
 .rslides_nav
 	display: none
-
-
-
-
 
 .arrow_navigation
 	position: absolute
@@ -179,9 +163,6 @@ div.main_banner
 			width: 4em
 			height: 4em
 
-
-
-
 .wide_slider
 	height: 45em
 	overflow: hidden
@@ -205,9 +186,6 @@ div.main_banner
 		height: 25em
 	@media (max-width: $tablet_break)
 		height: 20em
-
-
-
 
 ul.dots-pager
 	margin-left: auto
