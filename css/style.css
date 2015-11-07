@@ -1149,7 +1149,7 @@ footer ul {
     width: 100%; } }
 
 /* Alternative Setup */
-.bg_img, section.main_banner .wrap li .image, .wide_slider li .image {
+.bg_img, div.main_banner .slider_container li .image, .wide_slider li .image {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -1164,38 +1164,38 @@ button {
   cursor: pointer;
   border: none; }
 
-ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+ul.dots-pager {
   width: 90%; }
   @media (min-width: 1400px) {
-    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+    ul.dots-pager {
       width: 80%; } }
   @media (max-width: 900px) {
-    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+    ul.dots-pager {
       width: 95%; } }
   @media (max-width: 620px) {
-    ul.tabs-pager, ul.dots-pager, .main_banner.wrap {
+    ul.dots-pager {
       width: 98%; } }
 
 /* Slider Tabs */
-section.main_banner .wrap {
+div.main_banner .slider_container {
   position: relative;
   overflow: hidden; }
-  section.main_banner .wrap #slider3 li {
+  div.main_banner .slider_container #slider1 li, div.main_banner .slider_container #slider3 li {
     height: 28.75em;
     cursor: pointer; }
-  section.main_banner .wrap li {
+  div.main_banner .slider_container li {
     position: relative;
     overflow: hidden;
     width: 100%;
     display: table; }
-    section.main_banner .wrap li > div {
+    div.main_banner .slider_container li > div {
       width: 50%;
       height: 100%;
       display: table-cell;
       vertical-align: top;
       position: relative;
       overflow: hidden; }
-    section.main_banner .wrap li .image {
+    div.main_banner .slider_container li .image {
       -webkit-transition: all 0.1s ease-in-out;
       -moz-transition: all 0.1s ease-in-out;
       -ms-transition: all 0.1s ease-in-out;
@@ -1205,23 +1205,23 @@ section.main_banner .wrap {
       -ms-transform: scale(1);
       -webkit-transform: scale(1);
       transform: scale(1); }
-    section.main_banner .wrap li .txt {
+    div.main_banner .slider_container li .txt {
       padding: 2em 6em 4em 2em; }
-    section.main_banner .wrap li p {
+    div.main_banner .slider_container li p {
       margin-bottom: 0; }
-    section.main_banner .wrap li a {
+    div.main_banner .slider_container li a {
       margin-top: 1.5em;
       display: block; }
-    section.main_banner .wrap li .gray {
+    div.main_banner .slider_container li .gray {
       color: #cbcbcb; }
-    section.main_banner .wrap li .gray:before {
+    div.main_banner .slider_container li .gray:before {
       content: "← ";
       color: #434343; }
-section.main_banner ul.tabs-pager {
+div.main_banner ul.tabs-pager {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden; }
-  section.main_banner ul.tabs-pager li a {
+  div.main_banner ul.tabs-pager li a {
     float: left;
     margin-right: 1%;
     margin-bottom: 1%;
@@ -1231,22 +1231,22 @@ section.main_banner ul.tabs-pager {
     color: #cbcbcb;
     width: 15%;
     background-color: #ffffff; }
-  section.main_banner ul.tabs-pager li p {
+  div.main_banner ul.tabs-pager li p {
     margin-bottom: 0; }
-  section.main_banner ul.tabs-pager li p:after {
+  div.main_banner ul.tabs-pager li p:after {
     content: "→";
     margin-left: 0.5em; }
-  section.main_banner ul.tabs-pager li:hover a, section.main_banner ul.tabs-pager .rslides_here a {
+  div.main_banner ul.tabs-pager li:hover a, div.main_banner ul.tabs-pager .rslides_here a {
     background-color: #dd1919;
     color: #ffffff; }
-section.main_banner ul.tabs-bullets {
+div.main_banner ul.tabs-bullets {
   position: absolute;
   z-index: 4;
   right: 2em;
   top: 3em; }
-  section.main_banner ul.tabs-bullets li {
+  div.main_banner ul.tabs-bullets li {
     padding-bottom: 0.5em; }
-  section.main_banner ul.tabs-bullets a {
+  div.main_banner ul.tabs-bullets a {
     -moz-border-radius: 1em;
     -webkit-border-radius: 1em;
     border-radius: 1em;
@@ -1257,10 +1257,10 @@ section.main_banner ul.tabs-bullets {
     display: inline;
     float: left;
     display: inline-block; }
-  section.main_banner ul.tabs-bullets li:hover a, section.main_banner ul.tabs-bullets li.rslides_here a {
+  div.main_banner ul.tabs-bullets li:hover a, div.main_banner ul.tabs-bullets li.rslides_here a {
     border: 4px solid #cbcbcb;
     background-color: #cbcbcb; }
-section.main_banner .wrap:hover .image {
+div.main_banner .wrap:hover .image {
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
@@ -1270,24 +1270,24 @@ section.main_banner .wrap:hover .image {
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
   transform: scale(1); }
-section.main_banner .arrow_navigation {
+div.main_banner .arrow_navigation {
   display: none; }
 @media (max-width: 900px) {
-  section.main_banner ul.tabs-pager li a {
+  div.main_banner ul.tabs-pager li a {
     display: none; }
-  section.main_banner .wrap .arrow_navigation {
+  div.main_banner .wrap .arrow_navigation {
     display: block; } }
 @media (max-width: 620px) {
-  section.main_banner .wrap {
+  div.main_banner .wrap {
     height: auto; }
-    section.main_banner .wrap li {
+    div.main_banner .wrap li {
       height: auto; }
-      section.main_banner .wrap li > div {
+      div.main_banner .wrap li > div {
         display: block;
         width: 100%; }
-      section.main_banner .wrap li .image {
+      div.main_banner .wrap li .image {
         height: 20em; }
-      section.main_banner .wrap li .txt {
+      div.main_banner .wrap li .txt {
         padding: 2em 2em 6em 2em;
         height: auto; } }
 

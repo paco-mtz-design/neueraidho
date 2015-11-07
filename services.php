@@ -124,7 +124,7 @@ include "templates/header.php";
 		<div class="wrap">
 			<div>
 				<h3 class="Decima">Our process, step by step</h3>
-				<p class="Leitura medium_title">Process Slider goes Here.</p>
+				<?php include 'templates/slider_tabs.php'; ?>
 			</div>
 		</div> <!-- Wrap -->
 	</div>

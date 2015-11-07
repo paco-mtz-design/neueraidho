@@ -1,23 +1,31 @@
 <?php
 
 /*
-Slider with Bullets
+Slider with Tabs
 Neue Raidho Website
 */
 
 ?>
-<!-- slider w/bullets -->
-<div class="main_banner">
+<!-- slider w/tabs -->
+<div class="main_banner gray_light_bg">
+	<!-- tabs -->
+	<ul class="tabs-pager" id="slider1-pager">
+		<li><a href="#tab1"><p>Simplicity</p></a></li>
+		<li><a href="#tab2"><p>Enloquecy</p></a></li>
+		<li><a href="#tab3"><p>Aesthetics</p></a></li>
+		<li><a href="#tab4"><p>Innovation</p></a></li>
+	</ul>
+
+	<!-- slides container -->
 	<div class="slider_container">
-		<!-- slides container -->
-		<ul id="slider3">
+		<ul id="slider1">
 			<li>
 				<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
 				<div class="txt white_bg">
 					<div>
 						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
 						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red">Read the full story 1 →</p></a>
+						<p><span class="Decima gray">Read the full story</span></p>
 					</div>
 				</div>
 			</li>
@@ -27,7 +35,7 @@ Neue Raidho Website
 					<div>
 						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
 						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red">Read the full story 2 →</p></a>
+						<p><span class="Decima gray">Read the full story</span></p>
 					</div>
 				</div>
 			</li>
@@ -37,7 +45,7 @@ Neue Raidho Website
 					<div>
 						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
 						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red">Read the full story 3 →</p></a>
+						<p><span class="Decima gray">Read the full story</span></p>
 					</div>
 				</div>
 			</li>
@@ -47,19 +55,30 @@ Neue Raidho Website
 					<div>
 						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
 						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red">Read the full story 4 →</p></a>
+						<p><span class="Decima gray">Read the full story</span></p>
 					</div>
 				</div>
 			</li>
-
-		</ul>
-
-		<!-- bullets -->
-		<ul class="tabs-bullets" id="slider3-pager">
-			<li><a href="#tab1"></a></li>
-			<li><a href="#tab2"></a></li>
-			<li><a href="#tab3"></a></li>
-			<li><a href="#tab4"></a></li>
+			<li>
+				<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
+				<div class="txt white_bg">
+					<div>
+						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
+						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+						<p><span class="Decima gray">Read the full story</span></p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
+				<div class="txt white_bg">
+					<div>
+						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
+						<p class="Decima">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+						<p><span>Read the full story</span></p>
+					</div>
+				</div>
+			</li>
 		</ul>
 
 		<!-- arrows -->
