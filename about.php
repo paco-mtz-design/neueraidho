@@ -35,16 +35,16 @@ include "templates/header.php";
 		</div>
 	</div>
 
-	<div class="gray_light_bg section_pad"> <!-- Process Slider -->
+	<div class="gray_light_bg section_pad"> <!-- Values Slider -->
 		<div class="wrap">
 			<div>
 				<h3 class="Decima">What we stand for</h3>
-				<p class="Leitura medium_title">About Slider goes Here.</p>
+				<?php include 'templates/slider_tabs.php'; ?>
 			</div>
 		</div> <!-- Wrap -->
 	</div>
 
-	<div class="wrap">
+	<div class="wrap section_pad">
 		<h2 class="Decima">People at Raidho</h2>
 
 		<div class="people_founders">
