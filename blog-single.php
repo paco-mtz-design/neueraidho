@@ -27,7 +27,7 @@ include "templates/header.php";
 			</div>
 			<div class="blog_body Leitura">
 
-				<p>Hadas Steiner muestra la idea de la arquitectura como una condición en el entorno – donde el espacio se comprende mejor a través de la interacción que de la delineación. En el contexto regiomontano la acción patológica de circundar con muros cada espacio, públitco y privado, inhibe nuestra capacidad de interactuar con la ciudad. Por supuesto, la interacción con otras ciudadanos no está exenta de este padecimiento. Nuestro falso sentido de seguridad nos aliena.</p>
+				<p>Hadas Steiner muestra la idea de la arquitectura como una condición en el entorno – donde el espacio se comprende mejor a través de la interacción que de la delineación. En el contexto regiomontano la acción patológica de circundar con muros cada espacio, públitco y privado, inhibe nuestra capacidad de interactuar con la ciudad. Por supuesto, la interacción con otras ciudadanos no está exenta de este padecimiento. <strong>Nuestro falso sentido de seguridad nos aliena</strong>.</p>
 
 				<img src="http://lorempixel.com/740/540/technics">
 
