@@ -941,6 +941,12 @@ footer ul {
       margin-bottom: 1.5em; }
 
 /* Log Single */
+.log_filter svg {
+  fill: #cbcbcb;
+  width: 1.5em; }
+  .log_filter svg:hover {
+    fill: #dd1919; }
+
 .filter_header {
   position: relative; }
 
