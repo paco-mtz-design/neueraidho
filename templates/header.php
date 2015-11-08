@@ -16,7 +16,6 @@ global $bclass;
 	<meta name="author" content=" ">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsivemenu.css">
 	<link rel="stylesheet" type="text/css" href="fonts/leitura/MyFontsWebfontsKit.css">
 	<link rel="stylesheet" type="text/css" href="fonts/decima/MyFontsWebfontsKit.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
