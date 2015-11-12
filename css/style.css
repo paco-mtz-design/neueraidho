@@ -1397,9 +1397,6 @@ section.lightbox {
     section.lightbox .prev_btn, section.lightbox .next_btn, section.lightbox .close_btn {
       height: 50px;
       width: 50px; }
-    section.lightbox button:hover {
-      height: 50px;
-      width: 50px; }
     section.lightbox .right_controls .next_btn {
       right: 0; }
     section.lightbox .container .image, section.lightbox .content {
