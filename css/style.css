@@ -1229,8 +1229,8 @@ ul.dots-pager {
 /* LIGHTBOX */
 .fancybox-overlay-fixed {
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
   top: 0;
   background-color: rgba(255, 255, 255, 0.9); }
 
@@ -1251,41 +1251,60 @@ section.lightbox {
     display: inline-block;
     vertical-align: top; }
   section.lightbox .prev_btn, section.lightbox .next_btn, section.lightbox .close_btn {
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -ms-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
     height: 80px;
-    width: 80px;
-    background-position: center;
-    background-repeat: no-repeat; }
+    width: 80px; }
+  section.lightbox .prev_btn:before, section.lightbox .next_btn:before, section.lightbox .close_btn:before {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    height: 100%;
+    width: 100%; }
+  section.lightbox .prev_btn:hover:before, section.lightbox .next_btn:hover:before, section.lightbox .close_btn:hover:before {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    opacity: 1; }
   section.lightbox .prev_btn {
     margin: 15em 1em 0 0;
     background-image: url("../img/arrow_square1.svg"); }
+    section.lightbox .prev_btn:before {
+      background-image: url("../img/arrow_square2.svg"); }
   section.lightbox .next_btn {
-    display: block;
-    margin-top: 5em;
-    background-image: url("../img/arrow_square1.svg");
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
-    transform: rotate(180deg); }
+    transform: rotate(180deg);
+    display: block;
+    margin-top: 5em;
+    background-image: url("../img/arrow_square1.svg"); }
+    section.lightbox .next_btn:before {
+      background-image: url("../img/arrow_square2.svg"); }
   section.lightbox .close_btn {
     display: block;
     background-image: url("../img/close_square1.svg"); }
-  section.lightbox .prev_btn:hover, section.lightbox .next_btn:hover, section.lightbox .close_btn:hover {
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -ms-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out; }
-  section.lightbox .prev_btn:hover {
-    background-image: url("../img/arrow_square2.svg"); }
-  section.lightbox .next_btn:hover {
-    background-image: url("../img/arrow_square2.svg"); }
-  section.lightbox .close_btn:hover {
-    background-image: url("../img/close_square2.svg"); }
+    section.lightbox .close_btn:before {
+      background-image: url("../img/close_square2.svg"); }
   section.lightbox .container {
     width: 80%;
     display: inline-block; }
@@ -1294,6 +1313,10 @@ section.lightbox {
     max-width: 37.5em; }
     section.lightbox .image img {
       width: 100%; }
+  section.lightbox .right_controls {
+    display: inline-block;
+    float: right;
+    position: relative; }
   section.lightbox .content {
     width: 38%;
     margin-left: 1em;
@@ -1326,33 +1349,29 @@ section.lightbox {
       margin-right: 4%;
       margin-bottom: 3%; }
     section.lightbox .content .social li a {
-      -webkit-transition: all 0.1s ease-in-out;
-      -moz-transition: all 0.1s ease-in-out;
-      -ms-transition: all 0.1s ease-in-out;
-      -o-transition: all 0.1s ease-in-out;
-      transition: all 0.1s ease-in-out;
+      -webkit-transition: all 0.1s ease;
+      -moz-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+      -o-transition: all 0.1s ease;
+      transition: all 0.1s ease;
       float: left;
       width: 100%;
       padding: 0.75em 1em;
       color: #434343;
       border: 1px solid #cbcbcb; }
-      section.lightbox .content .social li a:hover {
-        -webkit-transition: all 0.1s ease-in-out;
-        -moz-transition: all 0.1s ease-in-out;
-        -ms-transition: all 0.1s ease-in-out;
-        -o-transition: all 0.1s ease-in-out;
-        transition: all 0.1s ease-in-out;
-        border: 1px solid #dd1919;
-        color: #ffffff;
-        background-color: #dd1919; }
-  section.lightbox .right_controls {
-    display: inline-block;
-    float: right;
-    position: relative; }
+    section.lightbox .content .social li a:hover {
+      -webkit-transition: all 0.1s ease;
+      -moz-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+      -o-transition: all 0.1s ease;
+      transition: all 0.1s ease;
+      border: 1px solid #dd1919;
+      color: #ffffff;
+      background-color: #dd1919; }
 @media(max-width: 1500px) {
   section.lightbox .content, section.lightbox .image {
     width: 48%; }
-  section.lightbox .content .top, section.lightbox .content .bottom {
+  section.lightbox .content .top, section.lightbox .bottom {
     margin-top: 0; }
   section.lightbox .content .bottom {
     margin-top: 1em; } }
@@ -1365,15 +1384,25 @@ section.lightbox {
   section.lightbox .right_controls {
     width: 55%;
     margin-bottom: 1em; }
-    section.lightbox .right_controls .next_btn, section.lightbox .right_controls .close_btn {
-      display: inline-block; }
-    section.lightbox .right_controls .next_btn {
-      margin-top: 0;
-      position: absolute;
-      right: 2em;
-      bottom: 0; } }
+  section.lightbox .right_controls .next_btn, section.lightbox .close_btn {
+    display: inline-block; }
+  section.lightbox .right_controls .next_btn {
+    margin-top: 0;
+    position: absolute;
+    right: 2em;
+    bottom: 0; } }
 @media(max-width: 600px) {
-  section.lightbox .container .image, section.lightbox .container .content {
-    width: 100%; }
-  section.lightbox .container .content {
-    margin-left: 0; } }
+  section.lightbox {
+    padding: 0 2em; }
+    section.lightbox .prev_btn, section.lightbox .next_btn, section.lightbox .close_btn {
+      height: 50px;
+      width: 50px; }
+    section.lightbox button:hover {
+      height: 50px;
+      width: 50px; }
+    section.lightbox .right_controls .next_btn {
+      right: 0; }
+    section.lightbox .container .image, section.lightbox .content {
+      width: 100%; }
+    section.lightbox .container .content {
+      margin-left: 0; } }

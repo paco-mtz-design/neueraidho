@@ -56,8 +56,8 @@ global $bclass;
 		});
 
 		$(".fancybox").fancybox({
-			prevEffect	: 'fade',
-			nextEffect	: 'fade',
+			prevEffect	: 'false',
+			nextEffect	: 'false',
 			maxHeight	: 700,
 			fitToView	: true,
 			width		: '100%',
