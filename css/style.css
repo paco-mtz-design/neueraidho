@@ -1296,7 +1296,7 @@ section.lightbox {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     display: block;
-    margin-top: 5em;
+    margin-top: 7.5em;
     background-image: url("../img/arrow_square1.svg"); }
     section.lightbox .next_btn:before {
       background-image: url("../img/arrow_square2.svg"); }
@@ -1402,4 +1402,10 @@ section.lightbox {
     section.lightbox .container .image, section.lightbox .content {
       width: 100%; }
     section.lightbox .container .content {
-      margin-left: 0; } }
+      margin-left: 0; }
+    section.lightbox .content .social li {
+      max-width: 100%;
+      width: 45%;
+      margin: 2%; }
+    section.lightbox .content .tags {
+      margin-top: 2em; } }
