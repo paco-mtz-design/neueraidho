@@ -17,7 +17,7 @@
 					<div class="top">
 						<div class="tags">
 							<ul>
-								<li><a href="#">#Linda</a></li>
+								<li><a href="#">#Linda1</a></li>
 								<li><a href="#">#Dinosaurios</a></li>
 								<li><a href="#">#Coder</a></li>
 							</ul>
@@ -59,7 +59,7 @@
 					<div class="top">
 						<div class="tags">
 							<ul>
-								<li><a href="#">#Linda</a></li>
+								<li><a href="#">#Linda2</a></li>
 								<li><a href="#">#Dinosaurios</a></li>
 								<li><a href="#">#Coder</a></li>
 							</ul>
@@ -101,7 +101,7 @@
 					<div class="top">
 						<div class="tags">
 							<ul>
-								<li><a href="#">#Linda</a></li>
+								<li><a href="#">#Linda3</a></li>
 								<li><a href="#">#Dinosaurios</a></li>
 								<li><a href="#">#Coder</a></li>
 							</ul>
