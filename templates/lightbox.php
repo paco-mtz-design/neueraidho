@@ -31,6 +31,18 @@
 								<li><a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">Pin this</a></li>
 								<li><a href="http://twitter.com/home?status=Pasa que tengo hambre y ya me quiero ir: http://raidho.mx/" onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">Post to Twitter</a></li>
 								<li><a href="#">Copy URL</a></li>
+								<button onclick="myFunction()">Try it</button>
+								<button id="demo" onclick="copyToClipboard(document.getElementById('demo').innerHTML)"><p id="url"></p></button>
+								<script>
+									function copyToClipboard(text) {
+										window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+									}
+
+									function myFunction() {
+									    var x = document.URL;
+									    document.getElementById("demo").innerHTML = x;
+									}
+								</script>
 							</ul>
 						</div>
 					</div>
