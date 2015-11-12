@@ -27,10 +27,10 @@
 					<div class="bottom">
 						<div class="social">
 							<ul>
-								<li><a href="#">Post to Facebook</a></li>
-								<li><a href="#">Post to Facebook</a></li>
-								<li><a href="#">Post to Facebook</a></li>
-								<li><a href="#">Post to Facebook</a></li>
+								<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://theraws.mx/mexico-under-construction/" onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" target="blank">Post to Facebook</a></li>
+								<li><a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">Pin this</a></li>
+								<li><a href="http://twitter.com/home?status=Pasa que tengo hambre y ya me quiero ir: http://raidho.mx/" onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">Post to Twitter</a></li>
+								<li><a href="#">Copy URL</a></li>
 							</ul>
 						</div>
 					</div>
@@ -123,3 +123,15 @@
 		</div>
 	</div>
 </section>
+
+
+<script>
+$(document).ready(function() {
+    // Simple click event for text-link anchor with Pinterest image.
+    $('#pin1click').click(function() {
+        $('#pin1 a img').click();
+    });
+
+});
+
+</script>
