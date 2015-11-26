@@ -1,3 +1,9 @@
+$large_break: 1400px
+$tablet_break: 900px
+$phone_break: 620px
+$small_break: 400px
+
+
 /* Alternative Setup */
 
 .bg_img
@@ -13,10 +19,10 @@ button
 	cursor: pointer
 	border: none
 
-ul.tabs-pager
+ul.tabs-pager, ul.dots-pager
 	width: 90%
 	@media (min-width: $large_break)
-		width: 70%
+		width: 80%
 	@media (max-width: $tablet_break)
 		width: 95%
 	@media (max-width: $phone_break)
@@ -129,6 +135,7 @@ section.main_banner
 				.image
 					height: 20em
 				.txt
+					padding: 2em 2em 6em 2em
 					height: auto
 
 .rslides_nav
@@ -234,3 +241,172 @@ ul.dots-pager
 			color: $white
 	@media (max-width: $tablet_break)
 		display: none
+
+
+/* LIGHTBOX */
+
+// reset fancybox
+.fancybox-overlay-fixed
+	position: fixed
+	width: 100%!important
+	height: 100%!important
+	top: 0
+	background-color: rgba(255, 255, 255, 0.9)
+
+.fancybox-wrap
+	top: 5.4em!important
+	left: 0!important
+	height: 100%!important
+	width: 100%!important
+	transition: none
+
+section.lightbox
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	display: none
+	.image, .prev_btn, .content, .right_controls
+		display: inline-block
+		vertical-align: top
+	.prev_btn, .next_btn, .close_btn
+		+transition(all, 0.1s, ease)
+		background-size: cover
+		background-position: center center
+		background-repeat: no-repeat
+		position: relative
+		height: 80px
+		width: 80px
+	.prev_btn:before, .next_btn:before, .close_btn:before
+		+transition(all, 0.1s, ease)
+		content: ''
+		left: 0
+		top: 0
+		position: absolute
+		background-size: cover
+		background-position: center center
+		background-repeat: no-repeat
+		opacity: 0
+		height: 100%
+		width: 100%
+	.prev_btn:hover:before, .next_btn:hover:before, .close_btn:hover:before
+		+transition(all, 0.1s, ease)
+		opacity: 1
+	.prev_btn
+		margin: 15em 1em 0 0
+		background-image: url('../img/arrow_square1.svg')
+		&:before
+			background-image: url('../img/arrow_square2.svg')
+	.next_btn
+		+transform(rotate(180deg))
+		display: block
+		margin-top: 7.5em
+		background-image: url('../img/arrow_square1.svg')
+		&:before
+			background-image: url('../img/arrow_square2.svg')
+	.close_btn
+		display: block
+		background-image: url('../img/close_square1.svg')
+		&:before
+			background-image: url('../img/close_square2.svg')
+	.container
+		width: 80%
+		display: inline-block
+	.image
+		width: 45%
+		max-width: 37.5em
+		img
+			width: 100%
+	.right_controls
+		display: inline-block
+		float: right
+		position: relative
+	.content
+		width: 38%
+		margin-left: 1em 
+		display: inline-block
+		.top
+			display: inline-block
+			vertical-align: top
+			margin-top: 9em
+			height: auto				
+		.bottom
+			margin-top: 10em
+		.tags
+			@extend .small_title
+			li
+				display: inline-block
+		.info
+			@extend .Decima
+			margin: 2em 0 0 2em
+			position: relative
+		.info:before
+			content: ''
+			background-image: url('../img/camera.svg')
+			background-repeat: no-repeat
+			background-size: contain
+			position: absolute
+			width: 1em
+			height: 1em
+			left: -2em
+		.social li
+			display: inline-block
+			width: 45%
+			max-width: 11em
+			margin-right: 4%
+			margin-bottom: 3%
+		.social li a
+			+transition(all, 0.1s, ease)
+			float: left
+			width: 100%
+			padding: 0.75em 1em
+			color: $gray_medium
+			border: 1px solid $gray_regular
+		.social li a:hover
+			+transition(all, 0.1s, ease)
+			border: 1px solid $red
+			color: $white
+			background-color: $red
+	@media(max-width: 1500px)
+		.content, .image
+			width: 48%
+		.content .top, .bottom
+			margin-top: 0
+		.content .bottom
+			margin-top: 1em
+	@media(max-width: 1000px)
+		.container
+			width: 100%
+			display: block
+		.prev_btn
+			margin: 0
+		.right_controls
+			width: 55%
+			margin-bottom: 1em			
+		.right_controls .next_btn, .close_btn
+			display: inline-block
+		.right_controls .next_btn
+			margin-top: 0
+			position: absolute
+			right: 2em
+			bottom: 0
+	@media(max-width: 600px)
+		padding: 0 2em
+		.prev_btn, .next_btn, .close_btn
+			height: 50px
+			width: 50px
+		.right_controls .next_btn
+			right: 0
+		.container .image, .content
+			width: 100%
+		.container .content
+			margin-left: 0
+		.content .social li
+			max-width: 100%
+			width: 45%
+			margin: 2%
+		.content .tags
+			margin-top: 2em
+
+
