@@ -67,6 +67,7 @@ global $bclass;
 			openEffect	: 'fade',
 			closeEffect	: 'fade'
 		});
+		
 	</script>
 
 </head>
