@@ -9,9 +9,9 @@ include "templates/header.php";
 
 ?>
 
-<a class="fancybox" href="#1" rel="first">fancy box</a>
-<a class="fancybox" href="#2" rel="first">fancy box</a>
-<a class="fancybox" href="#3" rel="first">fancy box</a>
+<a class="fancybox" href="#1">fancy box</a>
+<a class="fancybox" href="#2">fancy box</a>
+<a class="fancybox" href="#3">fancy box</a>
 
 <?php include('templates/lightbox.php');?>
 
