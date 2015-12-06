@@ -408,7 +408,7 @@ header #nav {
       width: 100%;
       display: none; } }
   header #nav li {
-    width: 8.75em;
+    width: auto;
     height: inherit;
     float: left;
     text-align: center; }
@@ -417,7 +417,7 @@ header #nav {
         width: 100%; } }
     header #nav li a {
       display: block;
-      padding: 1.8em 2.063em; }
+      padding: 1.8em 1.5em; }
       header #nav li a:hover {
         color: #ffffff; }
   header #nav.active {
