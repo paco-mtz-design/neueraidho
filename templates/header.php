@@ -77,7 +77,7 @@ global $bclass;
 	<header>
 
 		<div class="wrap">
-			<h3 id="nav_logo"><span><img src="img/simbolo_raidho.svg"></span><a href="index.html" title="Raidho"><img src="img/logo-raidho.svg"></a></h3>
+			<h3 id="nav_logo"><span><img src="img/simbolo_raidho.svg"></span><a href="index.php" title="Raidho"><img src="img/logo-raidho.svg"></a></h3>
 
 			<a id="mobile_nav_toggl" class="Decima" href="#">&#9776;</a>
 			<script>
