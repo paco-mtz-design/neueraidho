@@ -650,6 +650,9 @@ form input[type=submit] {
 
 h1.full_width_message {
   width: 82.85714%; }
+  @media (max-width: 620px) {
+    h1.full_width_message {
+      width: 100%; } }
 
 .full_width_message {
   width: 74.28571%; }
@@ -1454,188 +1457,189 @@ ul.dots-pager {
     ul.dots-pager {
       display: none; } }
 
-  /* LIGHTBOX */
-  .fancybox-overlay-fixed {
-    position: fixed;
-    width: 100% !important;
-    height: 100% !important;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.9); }
+/* LIGHTBOX */
+.fancybox-overlay-fixed {
+  position: fixed;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9); }
 
-  .fancybox-wrap {
-    top: 5.4em !important;
-    left: 0 !important;
-    height: 100% !important;
-    width: 100% !important;
-    transition: none; }
+.fancybox-wrap {
+  top: 5.4em !important;
+  left: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  transition: none; }
 
-  section.lightbox {
-    position: absolute;
-    top: 0;
+section.lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none; }
+  section.lightbox .image, section.lightbox .prev_btn, section.lightbox .content, section.lightbox .right_controls {
+    display: inline-block;
+    vertical-align: top; }
+  section.lightbox .prev_btn, section.lightbox .next_btn, section.lightbox .close_btn {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80px;
+    width: 80px; }
+  section.lightbox .prev_btn:before, section.lightbox .next_btn:before, section.lightbox .close_btn:before {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    content: "";
     left: 0;
-    width: 100%;
+    top: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0;
     height: 100%;
-    display: none; }
-    section.lightbox .image, section.lightbox .prev_btn, section.lightbox .content, section.lightbox .right_controls {
-      display: inline-block;
-      vertical-align: top; }
-    section.lightbox .prev_btn, section.lightbox .next_btn, section.lightbox .close_btn {
-      -webkit-transition: all 0.1s ease;
-      -moz-transition: all 0.1s ease;
-      -ms-transition: all 0.1s ease;
-      -o-transition: all 0.1s ease;
-      transition: all 0.1s ease;
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      position: relative;
-      height: 80px;
-      width: 80px; }
-    section.lightbox .prev_btn:before, section.lightbox .next_btn:before, section.lightbox .close_btn:before {
-      -webkit-transition: all 0.1s ease;
-      -moz-transition: all 0.1s ease;
-      -ms-transition: all 0.1s ease;
-      -o-transition: all 0.1s ease;
-      transition: all 0.1s ease;
-      content: "";
-      left: 0;
-      top: 0;
-      position: absolute;
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      opacity: 0;
-      height: 100%;
+    width: 100%; }
+  section.lightbox .prev_btn:hover:before, section.lightbox .next_btn:hover:before, section.lightbox .close_btn:hover:before {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    opacity: 1; }
+  section.lightbox .prev_btn {
+    margin: 15em 1em 0 0;
+    background-image: url("../img/arrow_square1.svg"); }
+    section.lightbox .prev_btn:before {
+      background-image: url("../img/arrow_square2.svg"); }
+  section.lightbox .next_btn {
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    display: block;
+    margin-top: 7.5em;
+    background-image: url("../img/arrow_square1.svg"); }
+    section.lightbox .next_btn:before {
+      background-image: url("../img/arrow_square2.svg"); }
+  section.lightbox .close_btn {
+    display: block;
+    background-image: url("../img/close_square1.svg"); }
+    section.lightbox .close_btn:before {
+      background-image: url("../img/close_square2.svg"); }
+  section.lightbox .container {
+    width: 80%;
+    display: inline-block; }
+  section.lightbox .image {
+    width: 45%;
+    max-width: 37.5em; }
+    section.lightbox .image img {
       width: 100%; }
-    section.lightbox .prev_btn:hover:before, section.lightbox .next_btn:hover:before, section.lightbox .close_btn:hover:before {
+  section.lightbox .right_controls {
+    display: inline-block;
+    float: right;
+    position: relative; }
+  section.lightbox .content {
+    width: 38%;
+    margin-left: 1em;
+    display: inline-block; }
+    section.lightbox .content .top {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 9em;
+      height: auto; }
+    section.lightbox .content .bottom {
+      margin-top: 10em; }
+    section.lightbox .content .tags li {
+      display: inline-block; }
+    section.lightbox .content .info {
+      margin: 2em 0 0 2em;
+      position: relative; }
+    section.lightbox .content .info:before {
+      content: "";
+      background-image: url("../img/camera.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 1em;
+      height: 1em;
+      left: -2em; }
+    section.lightbox .content .social li {
+      display: inline-block;
+      width: 45%;
+      max-width: 11em;
+      margin-right: 4%;
+      margin-bottom: 3%; }
+    section.lightbox .content .social li a {
       -webkit-transition: all 0.1s ease;
       -moz-transition: all 0.1s ease;
       -ms-transition: all 0.1s ease;
       -o-transition: all 0.1s ease;
       transition: all 0.1s ease;
-      opacity: 1; }
-    section.lightbox .prev_btn {
-      margin: 15em 1em 0 0;
-      background-image: url("../img/arrow_square1.svg"); }
-      section.lightbox .prev_btn:before {
-        background-image: url("../img/arrow_square2.svg"); }
-    section.lightbox .next_btn {
-      -moz-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      -webkit-transform: rotate(180deg);
-      transform: rotate(180deg);
-      display: block;
-      margin-top: 7.5em;
-      background-image: url("../img/arrow_square1.svg"); }
-      section.lightbox .next_btn:before {
-        background-image: url("../img/arrow_square2.svg"); }
-    section.lightbox .close_btn {
-      display: block;
-      background-image: url("../img/close_square1.svg"); }
-      section.lightbox .close_btn:before {
-        background-image: url("../img/close_square2.svg"); }
-    section.lightbox .container {
-      width: 80%;
-      display: inline-block; }
-    section.lightbox .image {
-      width: 45%;
-      max-width: 37.5em; }
-      section.lightbox .image img {
-        width: 100%; }
-    section.lightbox .right_controls {
-      display: inline-block;
-      float: right;
-      position: relative; }
-    section.lightbox .content {
-      width: 38%;
-      margin-left: 1em;
-      display: inline-block; }
-      section.lightbox .content .top {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 9em;
-        height: auto; }
-      section.lightbox .content .bottom {
-        margin-top: 10em; }
-      section.lightbox .content .tags li {
-        display: inline-block; }
-      section.lightbox .content .info {
-        margin: 2em 0 0 2em;
-        position: relative; }
-      section.lightbox .content .info:before {
-        content: "";
-        background-image: url("../img/camera.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: absolute;
-        width: 1em;
-        height: 1em;
-        left: -2em; }
-      section.lightbox .content .social li {
-        display: inline-block;
-        width: 45%;
-        max-width: 11em;
-        margin-right: 4%;
-        margin-bottom: 3%; }
-      section.lightbox .content .social li a {
-        -webkit-transition: all 0.1s ease;
-        -moz-transition: all 0.1s ease;
-        -ms-transition: all 0.1s ease;
-        -o-transition: all 0.1s ease;
-        transition: all 0.1s ease;
-        float: left;
-        width: 100%;
-        padding: 0.75em 1em;
-        color: #434343;
-        border: 1px solid #cbcbcb; }
-      section.lightbox .content .social li a:hover {
-        -webkit-transition: all 0.1s ease;
-        -moz-transition: all 0.1s ease;
-        -ms-transition: all 0.1s ease;
-        -o-transition: all 0.1s ease;
-        transition: all 0.1s ease;
-        border: 1px solid #dd1919;
-        color: #ffffff;
-        background-color: #dd1919; }
-  @media(max-width: 1500px) {
-    section.lightbox .content, section.lightbox .image {
-      width: 48%; }
-    section.lightbox .content .top, section.lightbox .bottom {
-      margin-top: 0; }
-    section.lightbox .content .bottom {
-      margin-top: 1em; } }
-  @media(max-width: 1000px) {
-    section.lightbox .container {
+      float: left;
       width: 100%;
-      display: block; }
-    section.lightbox .prev_btn {
-      margin: 0; }
-    section.lightbox .right_controls {
-      width: 55%;
-      margin-bottom: 1em; }
-    section.lightbox .right_controls .next_btn, section.lightbox .close_btn {
-      display: inline-block; }
+      padding: 0.75em 1em;
+      color: #434343;
+      border: 1px solid #cbcbcb; }
+    section.lightbox .content .social li a:hover {
+      -webkit-transition: all 0.1s ease;
+      -moz-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+      -o-transition: all 0.1s ease;
+      transition: all 0.1s ease;
+      border: 1px solid #dd1919;
+      color: #ffffff;
+      background-color: #dd1919; }
+@media(max-width: 1500px) {
+  section.lightbox .content, section.lightbox .image {
+    width: 48%; }
+  section.lightbox .content .top, section.lightbox .bottom {
+    margin-top: 0; }
+  section.lightbox .content .bottom {
+    margin-top: 1em; } }
+@media(max-width: 1000px) {
+  section.lightbox .container {
+    width: 100%;
+    display: block; }
+  section.lightbox .prev_btn {
+    margin: 0; }
+  section.lightbox .right_controls {
+    width: 55%;
+    margin-bottom: 1em; }
+  section.lightbox .right_controls .next_btn, section.lightbox .close_btn {
+    display: inline-block; }
+  section.lightbox .right_controls .next_btn {
+    margin-top: 0;
+    position: absolute;
+    right: 2em;
+    bottom: 0; } }
+@media(max-width: 600px) {
+  section.lightbox {
+    padding: 0 2em; }
+    section.lightbox .prev_btn, section.lightbox .next_btn, section.lightbox .close_btn {
+      height: 50px;
+      width: 50px; }
     section.lightbox .right_controls .next_btn {
-      margin-top: 0;
-      position: absolute;
-      right: 2em;
-      bottom: 0; } }
-  @media(max-width: 600px) {
-    section.lightbox {
-      padding: 0 2em; }
-      section.lightbox .prev_btn, section.lightbox .next_btn, section.lightbox .close_btn {
-        height: 50px;
-        width: 50px; }
-      section.lightbox .right_controls .next_btn {
-        right: 0; }
-      section.lightbox .container .image, section.lightbox .content {
-        width: 100%; }
-      section.lightbox .container .content {
-        margin-left: 0; }
-      section.lightbox .content .social li {
-        max-width: 100%;
-        width: 45%;
-        margin: 2%; }
-      section.lightbox .content .tags {
-        margin-top: 2em; } }
+      right: 0; }
+    section.lightbox .container .image, section.lightbox .content {
+      width: 100%; }
+    section.lightbox .container .content {
+      margin-left: 0; }
+    section.lightbox .content .social li {
+      max-width: 100%;
+      width: 45%;
+      margin: 2%; }
+    section.lightbox .content .tags {
+      margin-top: 2em; } }
+
 /*# sourceMappingURL=style.css.map */
