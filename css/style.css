@@ -195,9 +195,6 @@ h4, h3, h2, h1 {
   @media (max-width: 900px) {
     .section_pad, section, .e_nav_bottom, .back_img_quote, footer, .border_section {
       padding: 2em 0; } }
-  @media (max-width: 620px) {
-    .section_pad, section, .e_nav_bottom, .back_img_quote, footer, .border_section {
-      padding: 1em 0; } }
 
 .inner_section_pad, .e_nav1 a.nav1_bttn > div:nth-child(2), .e_nav2 a.nav2_bttn > div:nth-child(2), .e_nav3 a.nav2_bttn > div:nth-child(2), .feat_project_slider_info {
   padding: 2.5em 0; }
