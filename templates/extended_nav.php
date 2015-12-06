@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
 Extended Nav Template
@@ -30,7 +30,7 @@ Neue Raidho Website
 						<div>
 							<h4>About</h4>
 							<p class="Decima">Get to know our studio, what do we stand for, and our team.<br>
-							<span class="red">Continue to About section →</span></p>
+							<span class="phone_hide red">Continue to About section →</span></p>
 						</div>
 					</a>
 				</div>
@@ -41,7 +41,7 @@ Neue Raidho Website
 						<div>
 							<h4>Services</h4>
 							<p class="Decima">Find out how we make great brands and digital products.<br>
-							<span class="red">Continue to our Services →</span></p>
+							<span class="phone_hide red">Continue to our Services →</span></p>
 						</div>
 					</a>
 				</div>

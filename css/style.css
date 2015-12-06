@@ -524,7 +524,8 @@ header + .wrap {
     .e_nav2 a.nav2_bttn > div:nth-child(2), .e_nav3 a.nav2_bttn > div:nth-child(2) {
       width: 47.05882%;
       float: right;
-      margin-right: 0; }
+      margin-right: 0;
+      padding-right: 3em; }
   @media (max-width: 900px) {
     .e_nav2, .e_nav3 {
       width: 100%;
@@ -1045,6 +1046,18 @@ footer ul {
     width: 60px;
     display: inline-block;
     margin-right: 10px; }
+
+@media (max-width: 620px) {
+  .phone_hide {
+    display: none; } }
+
+.phone_thumb {
+  display: none;
+  width: 100%;
+  padding-bottom: 1.5em; }
+  @media (max-width: 620px) {
+    .phone_thumb {
+      display: block; } }
 
 .bl-party-three-one-caption div:nth-child(1) {
   width: 50%;

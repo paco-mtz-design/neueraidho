@@ -2,7 +2,7 @@
 
 /* Color pallete */
 
-.color_pallette 
+.color_pallette
 	margin: 30px
 	li
 		height: 60px
@@ -10,7 +10,13 @@
 		display: inline-block
 		margin-right: 10px
 
+.phone_hide
+	@media (max-width: $phone_break)
+		display: none
 
-
-
-
+.phone_thumb
+	display: none
+	width: 100%
+	padding-bottom: $bottom_margins
+	@media (max-width: $phone_break)
+		display: block
