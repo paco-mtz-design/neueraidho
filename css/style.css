@@ -1438,14 +1438,4 @@ ul.dots-pager {
     ul.dots-pager {
       display: none; } }
 
-@media (max-width: 620px) {
-  .phone_hide {
-    display: none; } }
-
-.phone_thumb {
-  display: none;
-  width: 100%;
-  padding-bottom: 1.5em; }
-  @media (max-width: 620px) {
-    .phone_thumb {
-      display: block; } }
+/*# sourceMappingURL=style.css.map */
