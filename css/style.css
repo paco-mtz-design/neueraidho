@@ -804,6 +804,8 @@ h1.full_width_message {
   margin-bottom: 1.5em; }
 
 /* Footer */
+footer .foot_notice {
+  margin-top: 1em; }
 footer ul {
   overflow: hidden; }
   footer ul li {
@@ -822,6 +824,31 @@ footer ul {
       margin-left: 68.57143%;
       margin-right: -100%;
       clear: none; }
+  footer ul li:nth-child(3) div span {
+    display: block; }
+  @media (max-width: 620px) {
+    footer ul li:nth-child(1), footer ul li:nth-child(2) {
+      width: 48.57143%;
+      float: left; }
+      footer ul li:nth-child(1):nth-child(2n + 1), footer ul li:nth-child(2):nth-child(2n + 1) {
+        margin-left: 0;
+        margin-right: -100%;
+        clear: both;
+        margin-left: 0; }
+      footer ul li:nth-child(1):nth-child(2n + 2), footer ul li:nth-child(2):nth-child(2n + 2) {
+        margin-left: 51.42857%;
+        margin-right: -100%;
+        clear: none; }
+    footer ul li:nth-child(3) {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      margin: 1em 0;
+      clear: both; }
+      footer ul li:nth-child(3) div span {
+        display: inline;
+        margin-right: 1em; } }
 
 /* About */
 .about_intro div {

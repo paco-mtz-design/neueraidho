@@ -133,10 +133,25 @@ h1.full_width_message
 
 footer
 	@extend .section_pad
+	.foot_notice
+		margin-top: 1em 
 	ul
 		overflow: hidden
 		li
 			@include gallery(4 of 12)
+		li:nth-child(3)
+			div span
+				display: block
+		@media (max-width: $phone_break)
+			li:nth-child(1), li:nth-child(2)
+				@include gallery(6 of 12)
+			li:nth-child(3)
+				@include span(full)
+				margin: 1em 0
+				clear: both
+				div span
+					display: inline
+					margin-right: 1em
 
 /* About */
 
