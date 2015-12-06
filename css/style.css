@@ -396,8 +396,9 @@ header #nav_logo {
   float: left;
   padding: 0.45em 0;
   margin-bottom: 0; }
-  header #nav_logo span img {
-    height: 0.7em; }
+  header #nav_logo span img, header #nav_logo a img {
+    height: 0.7em;
+    margin-right: 0.2em; }
 header #nav {
   float: right; }
   @media (max-width: 900px) {
