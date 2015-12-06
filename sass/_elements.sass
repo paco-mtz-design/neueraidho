@@ -203,12 +203,18 @@ header + .wrap
 .contact_complex form ul
 	> div:first-child
 		@include span(6 of 12 first)
+		@media (max-width: $phone_break)
+			@include span(full)
 		li
 			width: 45%
+			@media (max-width: $tablet_break)
+				width: 100%
 			input
 				width: 100%
 	> div:last-child
 		@include span(6 of 12 last)
+		@media (max-width: $phone_break)
+			@include span(full)
 		li
 			width: 100%
 			textarea
