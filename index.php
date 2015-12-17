@@ -42,41 +42,41 @@ include "templates/header.php";
 			<!-- Masonry columnWidth sizer -->
 			<li class="masonry_column"></li>
 			<!-- Masonry items -->
-			<li class="dribble masonry_item">
+			<li class="dribble masonry_item hidden_element">
 				<a href="#"><img src="http://lorempixel.com/400/300/technics"></a>
 				<p>Logo Nocturno</p>
 			</li>
-			<li class="instagram masonry_item">
+			<li class="instagram masonry_item hidden_element">
 				<a href="#"><img src="http://lorempixel.com/400/400/technics"></a>
 				<p>Good Times; almost 2 years [Nov 2012] photo by @ Rotten</p>
 			</li>
-			<li class="share masonry_item">
+			<li class="share masonry_item hidden_element">
 				<a href="#"><img src="http://lorempixel.com/400/200/technics"></a>
 				<p>Dâ Wearhouse’s new collection: Partners in Crime is now online</p>
 			</li>
-			<li class="twitter masonry_item">
+			<li class="twitter masonry_item hidden_element">
 				<div class="red_bg white">
 					<blockquote class="small_title">Charles Eames said: “Eventually everything connects – People, Ideas, Objects. The quality of the connections is the key to quality per se.”</blockquote>
 				<p><a href="#">Twitted by Quiroga</a></p>
 				</div>
 			</li>
-			<li class="work masonry_item">
+			<li class="work masonry_item hidden_element">
 				<a href="#"><img src="http://lorempixel.com/400/400/technics"></a>
 				<p><a href="#"><span class="red">New Project:</span> Explainer video for Colombian Tech Bootcamp Make it Real.</a></p>
 			</li>
-			<li class="blog masonry_item">
+			<li class="blog masonry_item hidden_element">
 				<a href="#"><img src="http://lorempixel.com/400/400/technics"></a>
 				<p>Residente: El Potencial de Fundidora</p>
 			</li>
-			<li class="instagram masonry_item">
+			<li class="instagram masonry_item hidden_element">
 				<a href="#"><img src="http://lorempixel.com/400/400/technics"></a>
 				<p>#Linda #Dinosaurios #coder</p>
 			</li>
-			<li class="dribble masonry_item">
+			<li class="dribble masonry_item hidden_element">
 				<a href="#"><img src="http://lorempixel.com/400/300/technics"></a>
 				<p>New Homepage Quick Test</p>
 			</li>
-			<li class="share masonry_item">
+			<li class="share masonry_item hidden_element">
 				<a href="#"><img src="http://lorempixel.com/400/300/technics"></a>
 				<p>Rides for cash: ¿When will my bike pay for itself?</p>
 			</li>

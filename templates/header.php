@@ -70,6 +70,30 @@ global $bclass;
 
 	</script>
 
+	<script type="text/javascript">
+		// $(document).ready(function() {
+		// 	$(window).scroll( function(){
+		// 		$('.hidden_element').each( function(i){
+		//             var bottom_of_object = $(this).offset().top + 100;
+		//             var bottom_of_window = $(window).scrollTop() + $(window).height();
+		// 						if( bottom_of_window > bottom_of_object ){
+		// 							$(this).animate({'opacity':'1'},9000);
+		// 						}
+		//         });
+		//     });
+		// });
+		$(document).scroll(function () {
+				var y = $(this).scrollTop();
+				$('.hidden_element').each(function () {
+		        var t = $(this).offset().top - 700;
+		        if (y > t) {
+		            $(this).animate({'opacity':'1'},500);
+		        }
+		    });
+
+		});
+	</script>
+
 </head>
 
 <body <?php echo 'class="'.$bclass.'"'; ?> >
