@@ -32,19 +32,19 @@ include "templates/header.php";
 
 	    <div class="bl-party-three-w-captions">
 	        <ul>
-	            <li>
+	            <li class="hidden_element">
 	                <a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 		                <p>Penguin Books. <span class="Leitura">An Expanding Universe Keynote.</span></p>
 					</a>
 	            </li>
-	            <li>
+	            <li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 		                <p>Comunidad VIVEX. <span class="Leitura">Re-defining the News in Mexico.</span></p>
 					</a>
 	            </li>
-	            <li>
+	            <li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 		                <p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
@@ -55,73 +55,73 @@ include "templates/header.php";
 
 		<div class="bl-party-four-w-captions">
 	        <ul>
-	            <li>
+	            <li class="hidden_element">
 	                <a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 		                <p>Penguin Books. <span class="Leitura">An Expanding Universe Keynote.</span></p>
 					</a>
 	            </li>
-	            <li>
+	            <li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 		                <p>Comunidad VIVEX. <span class="Leitura">Re-defining the News in Mexico.</span></p>
 					</a>
 	            </li>
-	            <li>
+	            <li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 		                <p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
 					</a>
 	            </li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 		                <p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
 					</a>
 	            </li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 						<p>Penguin Books. <span class="Leitura">An Expanding Universe Keynote.</span></p>
 					</a>
 				</li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 						<p>Comunidad VIVEX. <span class="Leitura">Re-defining the News in Mexico.</span></p>
 					</a>
 				</li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 						<p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
 					</a>
 				</li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 						<p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
 					</a>
 				</li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 						<p>Penguin Books. <span class="Leitura">An Expanding Universe Keynote.</span></p>
 					</a>
 				</li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 						<p>Comunidad VIVEX. <span class="Leitura">Re-defining the News in Mexico.</span></p>
 					</a>
 				</li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 						<p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
 					</a>
 				</li>
-				<li>
+				<li class="hidden_element">
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
 						<p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
