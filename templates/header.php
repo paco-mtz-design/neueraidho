@@ -71,15 +71,16 @@ global $bclass;
 	</script>
 
 	<script type="text/javascript">
+
 		$(document).scroll(function () {
 				var y = $(this).scrollTop();
+				var h = window.innerHeight;
 				$('.hidden_element').each(function () {
-		        var t = $(this).offset().top - 800;
+		        var t = $(this).offset().top - h;
 		        if (y > t) {
 		            $(this).animate({'opacity':'1', 'margin-top':'0px'},400);
 		        }
 		    });
-
 		});
 	</script>
 
