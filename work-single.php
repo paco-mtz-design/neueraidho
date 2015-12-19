@@ -16,7 +16,7 @@ include "templates/header.php";
 		<img class="full_width_image" src="http://lorempixel.com/1280/740/technics">
 	</div>
 
-    <div class="wrap hidden_element">
+    <div class="wrap">
 		<div>
             <h1>Centro Médico ABC</h1>
             <h2 class="Leitura">American British Cowdray</h2>
@@ -26,7 +26,7 @@ include "templates/header.php";
     </div>
 
     <?php // three pics one caption ?>
-    <div class="bl-party-three-one-caption hidden_element">
+    <div class="bl-party-three-one-caption">
         <div><img src="http://lorempixel.com/640/750/technics"></div>
         <div><img src="http://lorempixel.com/640/374/technics"></div>
         <div><img src="http://lorempixel.com/640/374/technics"></div>
