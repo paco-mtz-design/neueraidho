@@ -1051,6 +1051,16 @@ footer ul {
         content: " ";
         display: block;
         clear: both; } }
+  #recent_work .wrap.project_wrapper ul li p {
+    transition: all 0.3s;
+    opacity: 0; }
+  #recent_work .wrap.project_wrapper ul li:hover p {
+    transition: all 0.3s;
+    opacity: 1; }
+
+@media (max-width: 900px) {
+  #recent_work .wrap.project_wrapper ul li p {
+    opacity: 1; } }
 
 @media (max-width: 620px) {
   #recent_work .bl-party-four-w-captions ul li,

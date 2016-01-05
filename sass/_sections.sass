@@ -134,7 +134,7 @@ h1.full_width_message
 footer
 	@extend .section_pad
 	.foot_notice
-		margin-top: 1em 
+		margin-top: 1em
 	ul
 		overflow: hidden
 		li
@@ -263,6 +263,17 @@ footer
 	.wrap.project_wrapper
 		@media (min-width: $large_break)
 			@include container(95%)
+		ul li p
+			transition: all 0.3s
+			opacity: 0
+		ul li:hover p
+			transition: all 0.3s
+			opacity: 1
+
+#recent_work
+	@media (max-width: $tablet_break)
+		.wrap.project_wrapper ul li p
+			opacity: 1
 
 #recent_work
 	@media (max-width: $phone_break)
