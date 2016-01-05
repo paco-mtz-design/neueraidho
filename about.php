@@ -18,11 +18,11 @@ include "templates/header.php";
 		</div>
 	</div>
 
-	<div class="section_bottom_margins hidden_element">
+	<div class="section_bottom_margins">
 		<img class="full_width_image" src="http://lorempixel.com/1280/740/technics">
 	</div>
 
-	<div class="wrap hidden_element">
+	<div class="wrap">
 		<div class="Decima about_intro">
 			<div>
 				<img src="http://lorempixel.com/540/540/technics">
@@ -35,7 +35,7 @@ include "templates/header.php";
 		</div>
 	</div>
 
-	<div class="gray_light_bg section_pad hidden_element"> <!-- Values Slider -->
+	<div class="gray_light_bg section_pad"> <!-- Values Slider -->
 		<div class="wrap">
 			<div>
 				<h3 class="Decima">What we stand for</h3>
@@ -48,7 +48,7 @@ include "templates/header.php";
 		<h2 class="Decima">People at Raidho</h2>
 
 		<div class="people_founders">
-			<div class="hidden_element">
+			<div>
 				<img src="http://lorempixel.com/600/600/technics">
 				<h4>Alejandro Ruiz</h4>
 				<p class="Decima">
@@ -56,7 +56,7 @@ include "templates/header.php";
 				<a href="mailto:ruiz@raidho.mx">ruiz@raidho.mx</a>
 				</p>
 			</div>
-			<div class="hidden_element">
+			<div>
 				<img src="http://lorempixel.com/600/600/technics">
 				<h4>Daniel Miranda</h4>
 				<p class="Decima">
@@ -64,7 +64,7 @@ include "templates/header.php";
 				<a href="mailto:miranda@raidho.mx">miranda@raidho.mx</a>
 				</p>
 			</div>
-			<div class="hidden_element">
+			<div>
 				<img src="http://lorempixel.com/600/600/technics">
 				<h4>David Quiroga</h4>
 				<p class="Decima">
@@ -72,7 +72,7 @@ include "templates/header.php";
 				<a href="mailto:quiroga@raidho.mx">quiroga@raidho.mx</a>
 				</p>
 			</div>
-			<div class="hidden_element">
+			<div>
 				<img src="http://lorempixel.com/600/600/technics">
 				<h4>Francisco Martínez</h4>
 				<p class="Decima">
@@ -82,7 +82,7 @@ include "templates/header.php";
 			</div>
 		</div>
 		<div class="people_team">
-			<div class="hidden_element">
+			<div>
 				<img src="http://lorempixel.com/600/600/technics">
 				<p>Miguel Balandrano</p>
 				<p class="Decima">
@@ -90,7 +90,7 @@ include "templates/header.php";
 				<a href="mailto:acider@raidho.mx">acider@raidho.mx</a>
 				</p>
 			</div>
-			<div class="hidden_element">
+			<div>
 				<img src="http://lorempixel.com/600/600/technics">
 				<p>Linda Castillo</p>
 				<p class="Decima">
@@ -98,7 +98,7 @@ include "templates/header.php";
 				<a href="mailto:linda@raidho.mx">linda@raidho.mx</a>
 				</p>
 			</div>
-			<div class="hidden_element">
+			<div>
 				<img src="http://lorempixel.com/600/600/technics">
 				<p>Rocko Raidho</p>
 				<p class="Decima">

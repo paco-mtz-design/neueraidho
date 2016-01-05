@@ -71,7 +71,7 @@ global $bclass;
 	</script>
 
 	<script type="text/javascript">
-
+		// LAZY LOAD
 		$(document).scroll(function () {
 				var y = $(this).scrollTop();
 				var h = window.innerHeight;

@@ -49,6 +49,12 @@ Neue Raidho Website
 			});
 		});
 
+		// LAZY LOAD APPLIED
+			// HOME
+			$("ul.log > li").addClass("hidden_element");
+			// ABOUT
+			$("#about > div, #about .people_founders > div, #about .people_team > div ").addClass("hidden_element");
+			$("#about > div:nth-child(1), #about .wrap .section_pad").removeClass("hidden_element");
 	</script>
 
 </body>
