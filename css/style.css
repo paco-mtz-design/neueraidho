@@ -1374,7 +1374,8 @@ div.main_banner ul.tabs-bullets {
   top: 3em; }
   div.main_banner ul.tabs-bullets li {
     display: inline-block;
-    padding-bottom: 0.5em; }
+    padding-bottom: 0.5em;
+    height: 25px; }
   div.main_banner ul.tabs-bullets a {
     -moz-border-radius: 1em;
     -webkit-border-radius: 1em;
@@ -1409,14 +1410,14 @@ div.main_banner .arrow_navigation {
 @media (max-width: 620px) {
   div.main_banner .slider_container {
     height: auto; }
-    div.main_banner .slider_container li {
+    div.main_banner .slider_container li, div.main_banner .slider_container #slider3 li > a {
       height: auto; }
-      div.main_banner .slider_container li > div {
+      div.main_banner .slider_container li > div, div.main_banner .slider_container #slider3 li > a > div {
         display: block;
         width: 100%; }
-      div.main_banner .slider_container li .image {
+      div.main_banner .slider_container li .image, div.main_banner .slider_container #slider3 li > a .image {
         height: 20em; }
-      div.main_banner .slider_container li .txt {
+      div.main_banner .slider_container li .txt, div.main_banner .slider_container #slider3 li > a .txt {
         padding: 2em 2em 6em 2em;
         height: auto; } }
 
