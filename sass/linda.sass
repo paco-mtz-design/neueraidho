@@ -39,6 +39,8 @@ div.main_banner
 		#slider1 li, #slider3 li
 			height: 28.75em
 			cursor: pointer
+		#slider3 li > a
+			height: 100%
 		#slider1 li, #slider3 li > a
 			position: relative
 			overflow: hidden
@@ -92,11 +94,13 @@ div.main_banner
 				background-color: $red
 				color: $white
 	ul.tabs-bullets
+		width: 30px
 		position: absolute
 		z-index: 4
 		right: 2em
 		top: 3em
 		li
+			display: inline-block
 			padding-bottom: 0.5em
 		a
 			+border-radius(1em)

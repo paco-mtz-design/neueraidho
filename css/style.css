@@ -1303,6 +1303,8 @@ div.main_banner .slider_container {
   div.main_banner .slider_container #slider1 li, div.main_banner .slider_container #slider3 li {
     height: 28.75em;
     cursor: pointer; }
+  div.main_banner .slider_container #slider3 li > a {
+    height: 100%; }
   div.main_banner .slider_container #slider1 li, div.main_banner .slider_container #slider3 li > a {
     position: relative;
     overflow: hidden;
@@ -1360,11 +1362,13 @@ div.main_banner ul.tabs-pager {
     background-color: #dd1919;
     color: #ffffff; }
 div.main_banner ul.tabs-bullets {
+  width: 30px;
   position: absolute;
   z-index: 4;
   right: 2em;
   top: 3em; }
   div.main_banner ul.tabs-bullets li {
+    display: inline-block;
     padding-bottom: 0.5em; }
   div.main_banner ul.tabs-bullets a {
     -moz-border-radius: 1em;
