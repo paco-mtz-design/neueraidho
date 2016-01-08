@@ -24,6 +24,7 @@ $(document).scroll(function () {
 // Lazy Load Applied
 // Home
 $("ul.log > li").addClass("hidden_element");
+$(".feat_project_home .wrap .feat_project_info").addClass("hidden_element");
 // About
 $("#about > div, #about .people_founders > div, #about .people_team > div ").addClass("hidden_element");
 $("#about > div:nth-child(1), #about .wrap .section_pad").removeClass("hidden_element");

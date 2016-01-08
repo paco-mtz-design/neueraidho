@@ -1720,3 +1720,5 @@ section.lightbox {
       margin: 2%; }
     section.lightbox .content .tags {
       margin-top: 2em; } }
+.feat_project_home {
+  opacity: 0; }
