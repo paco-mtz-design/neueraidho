@@ -20,11 +20,14 @@ h1.full_width_message
 /* Home */
 
 .home_cover
+	opacity: 0
 	min-height: 33.75em
 	@media (max-width: $phone_break)
 		min-height: 18em
 .home_cover_info
 	@include span(10)
+	h1
+		opacity: 0
 	@media (max-width: $phone_break)
 		@include span(12)
 		h1
@@ -98,9 +101,9 @@ h1.full_width_message
 			background-repeat: no-repeat
 			background-size: 16px
 			background-position: 0% 10%
-			padding-left: 1.5em
+			padding-left: 25px
 		p.small_title
-			padding-left: 1em
+			padding-left: 25px
 		blockquote
 			margin-bottom: $bottom_margins
 
@@ -134,7 +137,7 @@ h1.full_width_message
 footer
 	@extend .section_pad
 	.foot_notice
-		margin-top: 1em 
+		margin-top: 1em
 	ul
 		overflow: hidden
 		li
@@ -244,6 +247,8 @@ footer
 		margin-right: 1em
 		a:hover
 			color: $red
+	@media (max-width: $small_break)
+		display: none
 
 .log_single_wrap
 	position: relative
@@ -263,6 +268,17 @@ footer
 	.wrap.project_wrapper
 		@media (min-width: $large_break)
 			@include container(95%)
+		ul li p
+			transition: all 0.3s
+			opacity: 0
+		ul li:hover p
+			transition: all 0.3s
+			opacity: 1
+
+#recent_work
+	@media (max-width: $tablet_break)
+		.wrap.project_wrapper ul li p
+			opacity: 1
 
 #recent_work
 	@media (max-width: $phone_break)

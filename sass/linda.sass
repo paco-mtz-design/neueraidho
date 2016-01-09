@@ -36,10 +36,12 @@ div.main_banner
 	.slider_container
 		position: relative
 		overflow: hidden
-		#slider1 li, #slider3 li
+		li, #slider3 li
 			height: 28.75em
 			cursor: pointer
-		li
+		#slider3 li > a
+			height: 100%
+		li, #slider3 li > a
 			position: relative
 			overflow: hidden
 			width: 100%
@@ -59,7 +61,7 @@ div.main_banner
 				padding: 2em 6em 4em 2em
 			p
 				margin-bottom: 0
-			a
+			span.Decima
 				margin-top: 1.5em
 				display: block
 			.gray
@@ -92,12 +94,15 @@ div.main_banner
 				background-color: $red
 				color: $white
 	ul.tabs-bullets
+		width: 30px
 		position: absolute
 		z-index: 4
 		right: 2em
 		top: 3em
 		li
+			display: inline-block
 			padding-bottom: 0.5em
+			height: 25px
 		a
 			+border-radius(1em)
 			height: 16px
@@ -128,7 +133,7 @@ div.main_banner
 	@media (max-width: $phone_break)
 		.slider_container
 			height: auto
-			li
+			li, #slider3 li > a
 				height: auto
 				> div
 					display: block
@@ -315,13 +320,13 @@ section.lightbox
 		position: relative
 	.content
 		width: 38%
-		margin-left: 1em 
+		margin-left: 1em
 		display: inline-block
 		.top
 			display: inline-block
 			vertical-align: top
 			margin-top: 9em
-			height: auto				
+			height: auto
 		.bottom
 			margin-top: 10em
 		.tags
@@ -374,7 +379,7 @@ section.lightbox
 			margin: 0
 		.right_controls
 			width: 55%
-			margin-bottom: 1em			
+			margin-bottom: 1em
 		.right_controls .next_btn, .close_btn
 			display: inline-block
 		.right_controls .next_btn
@@ -400,4 +405,5 @@ section.lightbox
 		.content .tags
 			margin-top: 2em
 
-
+.feat_project_home
+	opacity: 0

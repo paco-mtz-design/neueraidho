@@ -36,20 +36,7 @@ Neue Raidho Website
 	</div>
 	</footer>
 
-	<script type="text/javascript">
-
-		// Masonry activation + imagesLoaded with jQuery
-		var $container = $('.masonry');
-		// initialize Masonry after all images have loaded
-		$container.imagesLoaded( function() {
-		  $container.masonry({
-			columnWidth: '.masonry_column',
-			gutter: '.masonry_gutter',
-			itemSelector: '.masonry_item'
-			});
-		});
-
-	</script>
+	<script src="js/after.js"></script>
 
 </body>
 

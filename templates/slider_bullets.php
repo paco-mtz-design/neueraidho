@@ -12,44 +12,52 @@ Neue Raidho Website
 		<!-- slides container -->
 		<ul id="slider3">
 			<li>
-				<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
-				<div class="txt white_bg">
-					<div>
-						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
-						<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red phone_hide">Read the full story 1 →</p></a>
+				<a href="#">
+					<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
+					<div class="txt white_bg">
+						<div>
+							<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
+							<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+							<span class="Decima red phone_hide">Read the full story 1 →</span>
+						</div>
 					</div>
-				</div>
+				</a>
 			</li>
 			<li>
-				<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
-				<div class="txt white_bg">
-					<div>
-						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
-						<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red phone_hide">Read the full story 2 →</p></a>
+				<a href="#">
+					<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
+					<div class="txt white_bg">
+						<div>
+							<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
+							<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+							<span class="Decima red phone_hide">Read the full story 1 →</span>
+						</div>
 					</div>
-				</div>
+				</a>
 			</li>
 			<li>
-				<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
-				<div class="txt white_bg">
-					<div>
-						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
-						<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red phone_hide">Read the full story 3 →</p></a>
+				<a href="#">
+					<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
+					<div class="txt white_bg">
+						<div>
+							<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
+							<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+							<span class="Decima red phone_hide">Read the full story 1 →</span>
+						</div>
 					</div>
-				</div>
+				</a>
 			</li>
 			<li>
-				<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
-				<div class="txt white_bg">
-					<div>
-						<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
-						<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
-						<a href="#"><p class="Decima red phone_hide">Read the full story 4 →</p></a>
+				<a href="#">
+					<div class="image" style="background-image: url(img/feat_banner_back_a.jpg)"></div>
+					<div class="txt white_bg">
+						<div>
+							<h2><span class="red">Recent:</span> Brand and record art for The Guadaloops.</h2>
+							<p class="Decima phone_hide">Check out our collaboration with these young and acclaimed Mexican musicians.</p>
+							<span class="Decima red phone_hide">Read the full story 1 →</span>
+						</div>
 					</div>
-				</div>
+				</a>
 			</li>
 
 		</ul>

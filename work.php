@@ -54,31 +54,31 @@ include "templates/header.php";
 	    </div>
 
 		<div class="bl-party-four-w-captions">
-	        <ul>
-	            <li>
-	                <a href="#">
-						<img src="http://lorempixel.com/380/380/technics">
-		                <p>Penguin Books. <span class="Leitura">An Expanding Universe Keynote.</span></p>
-					</a>
-	            </li>
-	            <li>
-					<a href="#">
-						<img src="http://lorempixel.com/380/380/technics">
-		                <p>Comunidad VIVEX. <span class="Leitura">Re-defining the News in Mexico.</span></p>
-					</a>
-	            </li>
-	            <li>
-					<a href="#">
-						<img src="http://lorempixel.com/380/380/technics">
-		                <p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
-					</a>
-	            </li>
+			<ul>
+        <li>
+        	<a href="#">
+							<img src="http://lorempixel.com/380/380/technics">
+              <p>Penguin Books. <span class="Leitura">An Expanding Universe Keynote.</span></p>
+						</a>
+        </li>
 				<li>
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
-		                <p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
+				    <p>Comunidad VIVEX. <span class="Leitura">Re-defining the News in Mexico.</span></p>
 					</a>
-	            </li>
+				</li>
+				<li>
+					<a href="#">
+						<img src="http://lorempixel.com/380/380/technics">
+		        <p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
+					</a>
+        </li>
+				<li>
+					<a href="#">
+						<img src="http://lorempixel.com/380/380/technics">
+            <p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
+					</a>
+        </li>
 				<li>
 					<a href="#">
 						<img src="http://lorempixel.com/380/380/technics">
@@ -127,7 +127,7 @@ include "templates/header.php";
 						<p>Knock your Wear. <span class="Leitura">Professional Image Consulting.</span></p>
 					</a>
 				</li>
-	        <ul>
+			<ul>
 	    </div>
 
 	</div> <!-- Wrap -->
